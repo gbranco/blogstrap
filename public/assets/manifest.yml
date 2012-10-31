@@ -63,6 +63,7 @@ nice_edit/demos/demo02.html: nice_edit/demos/demo02-6a867763e7fd7a63290ca3027985
 nice_edit/demos/demo03.html: nice_edit/demos/demo03-c3718b5c8433385463bb432846289389.html
 nice_edit/demos/demo04.html: nice_edit/demos/demo04-6eb4d40823f432ba15b534ffa1f5ecab.html
 nice_edit/demos/demo05.html: nice_edit/demos/demo05-16f29f53ee232e55f529ec96a0bd767c.html
+nice_edit/nicEdit.js: nice_edit/nicEdit-30616dd5fd1433034605d873b973e817.js
 nice_edit/nicEditorIcons.gif: nice_edit/nicEditorIcons-bb8801b1492209977db71c8812730050.gif
 fontawesome-webfont.eot: fontawesome-webfont-7cf1b0de49e2f8672c9ad6d9e382115f.eot
 fontawesome-webfont.svg: fontawesome-webfont-4d19fdd70a080778557b652cb4868557.svg
