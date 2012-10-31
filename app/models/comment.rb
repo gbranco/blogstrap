@@ -13,11 +13,8 @@ class Comment < ActiveRecord::Base
   scope :actived?, where(:situation => true)
 
   scope :has_new_comments, where(:situation => false).group(:post_id)
-<<<<<<< HEAD
+
   scope :more_commented, select('*, count(*)').group('post_id').limit(8).order('count(*) DESC')
-=======
-  scope :more_commented, select('*, count(*)').group('post_id').limit(8).order('count_all DESC')
->>>>>>> b47040cc6ad5882f7df5e0352d734595db94ea05
 
   after_create :notify_user_about_comment
 
