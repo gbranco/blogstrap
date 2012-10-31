@@ -1,0 +1,27 @@
+.new_comment_for_post
+  %h3 Faça um comentário
+  = form_for [@comment.post, @comment], :remote => true do |f|
+    .required_information
+      .input-prepend
+        %span.add-on Nome
+        = f.text_field :name, :placeholder => 'seu nome', :class => 'input-xlarge required'
+      .input-prepend.last
+        %span.add-on Email
+        = f.email_field :email, :placeholder => 'seu email', :class => 'input-xlarge required'
+      %span.form_separator
+    .extra_information
+      .input-prepend
+        %span.add-on Empresa
+        = f.text_field :company, :placeholder => 'onde trabalha', :class => 'input-medium'
+      .input-prepend.twitter
+        %span.add-on Twitter
+        = f.text_field :twitter, :placeholder => 'seu twitter', :class => 'input-large'
+      .input-prepend.last
+        %span.add-on Facebook
+        = f.text_field :facebook, :placeholder => 'seu facebook', :class => 'input-large'
+      %span.form_separator
+    .input-prepend
+      %span.add-on Comentário
+      = f.text_area :content, :placeholder => 'seu comentário', :class => 'required'
+    = f.submit 'Comentar', :class => 'btn'
+    = button_tag('Limpar Campos' , :type => :reset, :class => 'btn btn-small btn-inverse')

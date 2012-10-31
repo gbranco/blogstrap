@@ -1,0 +1,27 @@
+<% meta_title('Blogstrap # Home') %>
+<% meta_keywords("Blog, twitter, bootstrap, rails, ruby, web") %>
+<% meta_keywords(@posts.map { |post| post.name }.join(',')) unless @posts.empty? %>
+<div class='span9'>
+<% unless @posts.empty? %>
+	<% @posts.each do |post| %>
+		<div class='well'>
+			<h2><%= post.name.titleize %></h2>
+			<br />
+			<p>
+		  	<i class="icon-user"></i> <%= link_to post.author.name, 'javascript:void(0)' %>
+		  	| <i class="icon-calendar"></i> <%= post.create_date_and_hour %>
+		    | <i class="icon-comment"></i> <%= link_to post.comments.actived?.size, 'javascript:void(0)' %>
+		  </p>
+		  <hr />
+			<%= simple_format(post.abstract.html_safe) %>
+			<%= link_to("<strong>LEIA MAIS</strong>".html_safe , post_path(post), :title => 'veja detalhes do post', :class => 'btn btn-info btn-small') %>
+		</div>
+	<% end %>
+	<span class='paginate'><%= page_navigation_links(@posts)%></span>
+<% else %>
+	<%= alert_list_empty %>
+<% end %>
+</div>
+<% unless @posts.empty? %>
+  <div class='span3'><%= render 'categories', :locals => { :categories => @categories } %></div>
+<% end %>

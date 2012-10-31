@@ -1,0 +1,20 @@
+<div id='comment_<%= comment.id %>' class='comment_for_post'>
+  
+  <%= content_tag :h3, comment.name.titleize %>
+ 
+  <span class='informations'>
+    <span><i class="icon-calendar"></i>  <%= comment.created_date %></span>
+    <%= "<span><i class='icon-calendar'></i> #{comment.twitter}</span>".html_safe if comment.twitter %>
+    <%= "<span><i class='icon-calendar'></i> #{comment.facebook}</span>".html_safe if comment.facebook %>
+  </span>
+
+  <blockquote>
+  <%= content_tag :p, comment.content, :style => 'margin: 5px 0' %>  
+  </blockquote>
+
+  <span><%= "<i class='icon-briefcase'></i>  Trabalha na empresa > <strong style='color:#069'>#{comment.company} </strong>".html_safe  if comment.company %></span> |
+  
+  <span><%= "<i class='icon-envelope'></i>  Contato > #{mail_to(comment.email)}".html_safe %></span> <br />
+  
+</div>
+

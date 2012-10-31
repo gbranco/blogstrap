@@ -1,0 +1,32 @@
+!!!
+%html
+  %head
+    %title Painel Administrativo # Blogstrap
+    = stylesheet_link_tag    "application", :media => "all"
+    = javascript_include_tag "application"
+    = yield :headers
+    = csrf_meta_tags
+  %body
+    - if user_signed_in?
+      .container
+        %header#overview.jumbotron.subhead
+          = yield :sub_titulo_pagina
+        %div.navbar.navbar-fixed-top
+          .navbar-inner
+            .container
+              = link_to('Blogstrap', admin_root_path, :title => 'go to index page :) ', :class => 'brand')
+              .nav-collapse
+                = create_menus
+                %ul.nav.pull-right
+                  %li= link_to(current_user.name, 'javascript:void(0)', :title => "usuário : #{current_user.email} \nrole : #{current_user.role.name}")
+                  %li= link_to("<i class='icon-share-alt'></i>Logout".html_safe,destroy_user_session_path,:method => :delete, :confirm => 'Realmente sair ?',:title => 'Faรงa o logout')
+        = show_flash(flash)
+        / yield
+        = yield
+      / footer
+      %footer.footer
+        .container
+          %p
+            Github : #{link_to('Luiz Cezer \'Cezinha\'','http://www.github.com/lccezinha',:title => 'minha pรกgina no github')}
+          %p.pull-right
+            %a{:href => "#"} Back to top

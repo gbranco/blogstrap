@@ -1,0 +1,8 @@
+<%= content_tag(:div, :class => 'well input-append') do %>
+	<%= form_tag(route_for_search, {:method => :get,:class => 'form-inline'}) do  %>
+		<%= text_field_tag(:search,nil,:class => 'input-medium search-query span4',:size => 50, :placeholder => 'Faça sua busca')  %>
+		<%= submit_tag('Busca', :class => 'btn btn-primary') %>
+		<%= link_to("<i class=\"icon-plus\"></i> #{title}".html_safe, route_for_new,:class => 'btn',:title => "Cadastre uma #{title}")  unless title.nil? && route_for_new.nil? %>
+	<% end  %>
+<% end  %>
+

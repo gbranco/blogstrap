@@ -1,0 +1,50 @@
+<script src="/assets/jquery.fileupload-ui.js?body=1" type="text/javascript"></script>
+<script src="/assets/jquery.fileupload.js?body=1" type="text/javascript"></script>
+<script src="/assets/jquery-fileupload/vendor/jquery.ui.widget.js?body=1" type="text/javascript"></script>
+<script src="/assets/jquery-fileupload/vendor/load-image.js?body=1" type="text/javascript"></script>
+<script src="/assets/jquery-fileupload/vendor/canvas-to-blob.js?body=1" type="text/javascript"></script>
+<script src="/assets/jquery-fileupload/vendor/tmpl.js?body=1" type="text/javascript"></script>
+<script src="/assets/jquery-fileupload/jquery.iframe-transport.js?body=1" type="text/javascript"></script>
+<script src="/assets/jquery-fileupload/jquery.fileupload.js?body=1" type="text/javascript"></script>
+<script src="/assets/jquery-fileupload/jquery.fileupload-fp.js?body=1" type="text/javascript"></script>
+<script src="/assets/jquery-fileupload/jquery.fileupload-ui.js?body=1" type="text/javascript"></script>
+<script src="/assets/jquery-fileupload/locale.js?body=1" type="text/javascript"></script>
+<script src="/assets/jquery-fileupload/index.js?body=1" type="text/javascript"></script>
+
+<%= form_for Archive.new, :url => {:controller => 'admin/archives', :action => :create} ,:html => { :multipart => true, :id => "fileupload"  } do |f| %>
+  <div class="row fileupload-buttonbar">
+      <div class="span7">
+        <!-- The fileinput-button span is used to style the file input field as button -->
+        <span class="btn btn-success fileinput-button">
+          <i class="icon-plus icon-white"></i>
+          <span>Selecione ...</span>
+          <%= f.file_field :image, :multiple => true %>
+        </span>
+        <button type="submit" class="btn btn-primary start">
+          <i class="icon-upload icon-white"></i>
+          <span>Iniciar upload</span>
+        </button>
+        <button type="reset" class="btn btn-warning cancel">
+          <i class="icon-ban-circle icon-white"></i>
+          <span>Cancelar upload</span>
+        </button>
+        <button type="button" class="btn btn-danger delete">
+          <i class="icon-trash icon-white"></i>
+          <span>Deletar Arquivos</span>
+        </button>
+        <input type="checkbox" class="toggle">
+      </div>
+      <div class="span5">
+        <!-- The global progress bar -->
+        <div class="progress progress-success progress-striped active fade">
+          <div class="bar" style="width:0%;"></div>
+        </div>
+      </div>
+    </div>
+    <!-- The loading indicator is shown during image processing -->
+    <div class="fileupload-loading"></div>
+    <br>
+    <!-- The table listing the files available for upload/download -->
+    <table class="table table-striped"><tbody class="files" data-toggle="modal-gallery" data-target="#modal-gallery"></tbody>
+    </table>
+<% end %>

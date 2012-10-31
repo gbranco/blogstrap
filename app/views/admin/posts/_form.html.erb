@@ -1,0 +1,25 @@
+<% content_for :headers do %>
+    <%= javascript_include_tag "nice_edit/nicEdit" %>
+    <script type='text/javascript'>
+        bkLib.onDomLoaded(function() { new nicEditor().panelInstance('textile') });
+    </script>
+<% end %>
+
+<div class='row'>
+    <%= form_for [:admin, @post],:html => {:class => 'form-horizontal'}  do |f| %>
+
+        <%= error_message_for(@post) %>
+        <%= form_field_control_label_and_input(:post, :name, f.text_field(:name, :class => 'input-xlarge'), {:label_name => 'Titulo'})%>
+        <%= show_select(f, @categories, :label_name => 'Selecione a Categoria') %>
+        <%= form_field_control_label_and_input(:post, :abstract, f.text_area(:abstract, :rows => 5), {:label_name => 'Resumo'})%>
+        <%= form_field_control_label_and_input(:post, :content, f.text_area(:content, :id => 'textile', :class => 'input-xlarge'), {:label_name => 'Conteudo'})%>
+        <%= form_field_control_label_and_input(:post, :published_at, f.text_field(:published_at, :class => 'input-small calendar'), {:label_name => 'Quando '})%>
+        <%= form_field_control_label_and_input(:post, :situation, f.check_box(:situation) , {:label_name => 'Ativo?'})%>
+        <%= submit_and_back_buttons(admin_posts_path,{:label_name => label_name}) %>
+
+        <%= render :partial => 'admin/shared/archives', :locals => { :archive_types => @archive_types, :post => @post} %>
+
+    <% end %>
+</div>
+
+

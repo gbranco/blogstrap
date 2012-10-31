@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Painel Administrativo # Blogstrap</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= yield :headers %>
+  <%= csrf_meta_tags %>
+
+</head>
+<body>
+
+  <% if user_signed_in? %>
+
+    <div class='container'>
+
+      <header id="overview" class="jumbotron subhead">
+        <%= yield :sub_titulo_pagina %>
+      </header>
+
+
+        <div class="navbar navbar-fixed-top">
+          <div class="navbar-inner">
+            <div class="container">
+              
+              <%= link_to('Blogstrap', admin_root_path, :title => 'go to index page :) ', :class => 'brand')%>
+              <div class="nav-collapse">
+              
+                <%= create_menus %>
+ 
+                <ul class="nav pull-right">
+                  <li><%= link_to(current_user.name, 'javascript:void(0)', :title => "usuário : #{current_user.email} \nrole : #{current_user.role.name}")%></li>
+                  <li><%= link_to("<i class='icon-share-alt'></i>Logout".html_safe,destroy_user_session_path,:method => :delete, :confirm => 'Realmente sair ?',:title => 'Faรงa o logout') %></li>
+                </ul>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <%= show_flash(flash) %>
+
+      <!-- yield -->
+      <%= yield %>
+
+    </div>
+
+    <!-- footer -->
+      <footer class="footer">
+        <div class='container'>
+          <p>Github : <%= link_to("Luiz Cezer 'Cezinha' ",'http://www.github.com/lccezinha',:title => 'minha pรกgina no github') %></p>
+          <p class="pull-right"> <a href="#">Back to top</a> </p>
+        </div>
+      </footer>
+
+      
+    <% end %>
+</body>
+</html>
+

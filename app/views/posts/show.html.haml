@@ -1,0 +1,25 @@
+- meta_title("Blogstrap > Detalhes : #{@post.name}")
+- meta_keywords("blostrap, detalhes, post, #{@post.name}")
+.span9
+  .well
+    %h1= @post.name.titleize
+    %p{:style => "margin-top:7px"}
+      %i.icon-user
+      = link_to(@post.author.name, 'javascript:void(0)')
+      %i.icon-calendar
+      = @post.create_date_and_hour
+    %hr/
+    = simple_format(@post.content.html_safe)
+    = assets_for_post(@assets)
+    %div{"data-pjax-container" => ""}
+      - unless @comments.empty?
+        = content_tag(:h3, "Comentários : #{@total_comments}")
+        %hr/
+        - @comments.each do |comment|
+          = render(:partial => 'comments', :locals => { :comment => comment })
+        = page_navigation_links @comments
+      - else
+        = content_tag(:h3, 'Seja o primeiro a comentar !',:style => 'text-align:center; margin-bottom:10px;')
+    #comment_information= show_flash(flash) unless flash.nil?
+    = render :partial => 'comment', :locals => { :comment => @comment }
+.span3= render '/home/categories', :locals => { :categories => @categories }

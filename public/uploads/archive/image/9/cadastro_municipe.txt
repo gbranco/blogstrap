@@ -1,0 +1,150 @@
+cadastro_municipe(
+	nome, cpf, rg, emissor, uf, data_emissao_rg, título, seção, zona, nascimento, naturalidade,
+	nacionalidade, sexo, estado_civil, dependentes, endereço, número, bairro, fone, celular, data_chegada,
+	cor, pai, mãe, ocupação, escolaridade, formação, onde_estuda, voltar_estudar?, necessidade_especial,
+	estudo_pretendido, cupom_fiscal, associação, sindicato, clube, religião
+	cpf_de_quem_dependente, origem_renda, plano_saúde, sangue, doador?, local_problema_saude,
+	tipo_medicamento, principal_meio_comunicação, principal_meio_transporte
+	nome_recenseador, nome_coordenador_area
+)
+
+1 Forma Nomal
+______________________________________
+
+
+ENTREVISTA(municipe_id, ano)
+
+MUNICIPE/OCUPAÇÃO(municipe_id, ocupação)
+
+MUNICIPE/FORMAÇÃO(municipe_id, formação)
+
+MUNICIPE/DEFICIENCIA(municipe_id, deficiencia)
+
+MUNICIPE/ESTUDO_PRETENDIDO(municipe_id, estudo_pretendido)
+
+MUNICIPE/ASSOCIAÇÃO(municipe_id, associação)
+
+MUNICIPE/SINDICATO(municipe_id, sindicato)
+
+MUNICIPE/CLUBE(municipe_id, clube)
+
+MUNICIPE/LOCAL_PROBLEMA(municipe_id, local_problema_saude)
+
+MUNICIPE/TIPO_MEDICAMENTO(municipe_id, tipo_medicamento)
+
+MUNICIPE(
+	id, nome, cpf, rg, emissor, uf, data_emissao, título, seção, zona, nascimento, naturalidade,
+	nacionalidade, sexo, estado_civil, dependentes, endereco, número, bairro, fone, celular,
+	data_chegada, cor, pai, mãe, escolaridade, onde_estuda, voltar_estudar, cupom_fiscal, religião,
+    cpf_de_quem_dependente, origem_renda, plano_saúde, sangue, doador?, principal_meio_comunicação,
+    principal_meio_transporte, nome_recenseador, nome_coordenador_area
+)
+
+
+2 Forma Normal
+___________________________________
+
+
+ENTREVISTA(municipe_id, ano)
+
+CADASTRO_MUNICIPE(id, municipe_id, seção, zona, estado_civil, dependentes, endereco, número, bairro,
+fone, celular, data_chegada, escolaridade, onde_estuda, voltar_estudar?, cupom_fiscal, religião,
+cpf_de_quem_dependente, origem_renda, plano_saúde, doador?, principal_meio_comunicação, principal_meio_transporte, )
+
+MUNICIPE(nome, cpf, rg, emissor, uf, data_emissao, título, nascimento, naturalidade, nacionalidade, sexo
+    cor, pai, mãe, sangue,
+)
+
+
+ENTREVISTA(municipe_id, ano)
+
+MUNICIPE/OCUPAÇÃO(municipe_id, ocupação)
+
+MUNICIPE/FORMAÇÃO(municipe_id, formação)
+
+MUNICIPE/DEFICIENCIA(municipe_id, deficiencia)
+
+MUNICIPE/ESTUDO_PRETENDIDO(municipe_id, estudo_pretendido)
+
+MUNICIPE/ASSOCIAÇÃO(municipe_id, associação)
+
+MUNICIPE/SINDICATO(municipe_id, sindicato)
+
+MUNICIPE/CLUBE(municipe_id, clube)
+
+MUNICIPE/LOCAL_PROBLEMA(municipe_id, local_problema_saude)
+
+MUNICIPE/TIPO_MEDICAMENTO(municipe_id, tipo_medicamento)
+
+
+
+3 Forma Normal
+
+
+CADASTRO_MUNICIPE(id, municipe_id, seção, zona, estado_civil_id, dependentes, endereco_id, número, bairro_id,
+fone, celular, data_chegada, escolaridade_id, onde_estuda_id, voltar_estudar?, cupom_fiscal, religião_id,
+cpf_de_quem_dependente, origem_renda_id, plano_saúde_id, doador?, principal_meio_comunicação_id, principal_meio_transporte_id,
+nome_coordenador_area, nome_recenseador)
+
+PLANO_SAUDE(id, descrição)
+
+ORIGEM_RENDA(id, descrição)
+
+RELIGIÃO(id, descrição)
+
+ONDE_ESTUDA(id, descrição)
+
+ESCOLARIDADE(id, descrição)
+
+ESTADO_CIVIL(id, descrição)
+
+MEIO_COMUNICACAO(id, descrição)
+
+MEIO_TRANSPORTE(id, descrição)
+
+ENDERECO(id, descrição)
+
+BAIRRO(id, descricao)
+
+MUNICIPE(nome, cpf, rg, emissor, uf, data_emissao, título, nascimento, naturalidade, nacionalidade, sexo
+    cor, pai, mãe, sangue)
+
+
+ENTREVISTA(municipe_id, ano)
+
+MUNICIPE/OCUPAÇÃO(municipe_id, ocupação_id)
+
+OCUPAÇÂO(id, descrição)
+
+MUNICIPE/FORMAÇÃO(municipe_id, formação_id)
+
+FORMAÇÃO(id, descrição)
+
+MUNICIPE/DEFICIENCIA(municipe_id, deficiencia_id)
+
+DEFICIENCIA(id, descrição)
+
+MUNICIPE/ESTUDO_PRETENDIDO(municipe_id, estudo_pretendido_id)
+
+ESTUDO_PRETENDIDO(id, descrição)
+
+MUNICIPE/ASSOCIAÇÃO(municipe_id, associação_id)
+
+ASSOCIAÇÃO(id, descrição)
+
+MUNICIPE/SINDICATO(municipe_id, sindicato_id)
+
+SINDICATO(id, descrição)
+
+MUNICIPE/CLUBE(municipe_id, clube_id)
+
+CLUBE(id, descrição)
+
+MUNICIPE/LOCAL_PROBLEMA(municipe_id, local_problema_saude_id)
+
+LOCAL_PROBLEMA(id, descrição)
+
+MUNICIPE/TIPO_MEDICAMENTO(municipe_id, tipo_medicamento_id)
+
+TIPO_MEDICAMENTO(id, descrição)
+

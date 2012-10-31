@@ -1,0 +1,45 @@
+<% unless objetos.empty? %>
+  
+  <div class='show_itens_and_per_page'>
+    <span class="label label-info">
+      Registros encontrados : <%= objetos.size %>
+    </span>  
+
+    <%= itens_per_page %>
+    
+  </div>
+
+  <table class="table table-bordered table-striped">
+    <thead>
+      <tr>
+        
+        <th class='name'>
+          Name
+          <%= show_ordenation(:name) %>
+        </th>
+
+        <th class='situation'>
+          Situação
+          <%= show_ordenation(:situation) %>
+        </th>
+
+        <th class='actions'>Ações</th>
+
+      </tr>
+    </thead>
+    <tbody>
+      <% objetos.each do |objeto| %>
+        <tr>
+          <td class='name'><%= objeto.name %></td>
+          <td class='situation'><%= link_to_situation(objeto) %></td>
+          <%= show_actions(objeto, show_all_actions, options) %>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+
+  <span class='paginate'><%= page_navigation_links(objetos)%></span>
+
+<% else %>
+  <%= alert_list_empty %>
+<% end %>

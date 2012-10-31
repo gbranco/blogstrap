@@ -1,0 +1,7 @@
+<%= form_for [:admin,@category],:html => {:class => 'form-horizontal'}  do |f| %>
+    <%= error_message_for(@category) %>
+    <%= form_field_control_label_and_input(:category, :name, f.text_field(:name, :class => 'input-xlarge'), {:label_name => 'Nome'})%>
+    <%= form_field_control_label_and_input(:category, :situation, f.check_box(:situation) , {:label_name => 'Ativo?'})%>
+    <%= submit_and_back_buttons(admin_categories_path,{:label_name => label_name}) %>
+<% end %>
+

@@ -1,0 +1,18 @@
+<div id='comment_<%= comment.id %>'>
+  <label class='item-comment'><span class='label label-info space'><%= t('nome') %></span><%= comment.name %></label>
+  <label class='item-comment'><span class='label label-info space'><%= t('email') %></span><%= comment.email %></label>
+  <% if comment.company %>
+    <label class='item-comment'><span class='label label-info space'><%= t('company') %></span><%= comment.company %></label>
+  <% end %>
+  <% if comment.twitter %>
+    <label class='item-comment'><span class='label label-info space'><%= t('twitter') %></span><%= comment.twitter %></label>
+  <% end %> 
+  <% if comment.facebook %>
+    <label class='item-comment'><span class='label label-info space'><%= t('facebook') %></span><%= comment.facebook %></label> 
+  <% end %>
+  <label class='item-comment'><span class='label label-info space'><%= t('content') %></span><%= comment.content %></label>
+  <label class='item-comment'><span class='label label-info space'><%= t('created_at') %></span><%= comment.created_date %></label>
+  <%= show_status_for_comment(comment) %>
+  <%= link_to('Apagar', admin_post_comment_path(comment.post, comment), :method => :delete, :confirm => 'Realmente Apagar Comentário?', :class => 'btn btn-mini btn-inverse')%>
+  <hr />
+</div>

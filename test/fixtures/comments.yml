@@ -1,0 +1,47 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+#coding : utf-8
+
+comentario_um:
+  name: Valter Ekert
+  email: valterekert@hotmail.com
+  company: Serviceweb
+  twitter: valterekert
+  facebook: valterkert
+  content: Esse é meu primeiro comentário sobre o blog
+  post: '1'
+
+comentario_dois:
+  name: Tiago Jantanova
+  email: tiagojantanova@hotmail.com
+  company: Serviceweb
+  twitter: tiagojantanova
+  facebook: tiagojantanova
+  content: Muito bom o posto sobre TDD
+  post: '3'
+
+comentario_tres:
+  name: Mauricio de Rosário
+  email: mauriciorosario@hotmail.com
+  company: Serviceweb
+  twitter: mauriciorosario
+  facebook: mauriciorosario
+  content: Quero alterar meu site pode 
+  post: '2'  
+
+comentario_quatro:
+  name: Rafael Tibola noob
+  email: rafaelnoob@hotmail.com
+  company: Serviceweb
+  twitter: rafaelnoob
+  facebook: rafaelnoob
+  content: Ruby é uma linguagem muito boa
+  post: '2'
+
+comentario_cinco:
+  name: Alex Ninja
+  email: alexroveda@hotmail.com
+  company: Serviceweb
+  twitter: alexroveda
+  facebook: alexroveda
+  content: Gosto mais de Ruby do que batata e html
+  post: '2'

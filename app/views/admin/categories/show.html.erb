@@ -1,0 +1,16 @@
+<%= page_sub_title('Detalhes Categoria') %>
+<table class="table table-striped">
+	<thead>
+		<tr>
+			<th style='width:10%'>Campo</th>
+			<th>Valor</th>
+		</tr>
+	</thead>
+	<tbody>
+		<%= show_field_value(:name, @category.name) %>
+		<%= show_field_value(:situation, show_situation_status(@category.situation)) %>
+	</tbody>
+</table>
+<%= back_button(admin_categories_path) %>
+
+

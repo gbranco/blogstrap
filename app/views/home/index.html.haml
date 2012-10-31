@@ -1,0 +1,25 @@
+- meta_title('Blogstrap # Home')
+- meta_keywords("Blog, twitter, bootstrap, rails, ruby, web #{ @posts.map { |post| post.name }.join(', ') }, #{ @categories.map { |category|  category.name }.join(', ') } ")
+.span9
+  - unless @posts.empty?
+    - @posts.each do |post|
+      .well
+        %h2= post.name.titleize
+        %br/
+        %p
+          %i.icon-user
+          = link_to post.author.name, 'javascript:void(0)'
+          |
+          %i.icon-calendar
+          = post.create_date_and_hour
+          |
+          %i.icon-comment
+          = link_to post.comments.actived?.size, 'javascript:void(0)'
+        %hr/
+        = simple_format(post.abstract.html_safe)
+        = link_to("<strong>LEIA MAIS</strong>".html_safe , post_path(post), :title => 'veja detalhes do post', :class => 'btn btn-info btn-small')
+    %span.paginate= page_navigation_links(@posts)
+  - else
+    = alert_list_empty
+- unless @posts.empty?
+  .span3= render 'categories', :locals => { :categories => @categories }

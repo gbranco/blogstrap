@@ -1,0 +1,31 @@
+<h3>Entre em contato</h3>
+<%= form_tag contatos_path, :method => :post, :id => 'form_contact' do %>
+  
+  <span class='contact_fiels'>
+    <div class="input-prepend">
+      <span class="add-on">Nome&nbsp;</span>
+	    <%= text_field_tag :name, nil, :placeholder => 'informe o nome', :class => 'input-xlarge required' %>
+    </div>
+
+    <div class="input-prepend">
+      <span class="add-on">Email&nbsp;</span>
+	    <%= text_field_tag :email, nil, :placeholder => 'informe o email', :class => 'input-xlarge required' %>
+    </div>
+
+    <div class="input-prepend">
+      <span class="add-on">Cidade</span>
+	    <%= text_field_tag :city, nil, :placeholder => 'informe a cidade', :class => 'input-xlarge required' %>
+    </div>
+  </span>
+
+  <div class="input-prepend">
+    <span class="add-on">Mensagem</span>
+	  <%= text_area_tag :content, nil, :placeholder => 'sua mensagem', :id => 'contact_content', :class => 'required' %>
+  </div>
+
+  <%= submit_tag 'Enviar', :class => 'btn' %>
+	<%= button_tag('Limpar Campos' , :type => :reset, :class => 'btn btn-small btn-inverse') %>
+
+<% end %>
+
+

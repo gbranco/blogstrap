@@ -1,0 +1,13 @@
+<h3>Olá, <%= @post.author.name %></h3>
+
+Seu post : <%= @post.name %> recebeu o novo seguinte comentario :
+
+<div>
+de : <%= @comment.name %> <br />
+email : <%= @comment.email %> <br />
+<%= "Empresa : #{@comment.company} <br />".html_safe if @comment.company %>
+<%= "Twitter : #{@comment.twitter} <br />".html_safe if @comment.twitter %>
+<%= "Facebook : #{@comment.facebook} <br />".html_safe if @comment.facebook %>
+<p><%= @comment.content %></p>
+</div>
+Acesse o link : <%= link_to(@post.name, "http://10.0.0.124:3000/admin/posts/#{@post.id}#comments_for_post".html_safe) %> para aprovar o post !

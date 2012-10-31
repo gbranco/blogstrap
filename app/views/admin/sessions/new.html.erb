@@ -1,0 +1,13 @@
+<div class="container">
+    <div class="row">
+      <div class="span4 offset4 well">
+        <legend>Faça seu login</legend>
+        <%= show_flash(flash) %>
+        <%= form_for(resource, :as => resource_name, :url => session_path(resource_name)) do |f| %>
+          <%= form_field_control_label_and_input(:user, :email, f.email_field(:email,:class => 'span4',:placeholder => 'Email válido')) %>
+          <%= form_field_control_label_and_input(:user, :password, f.password_field(:password,:class => 'span4',:placeholder => 'Sua Senha'), {:label_name => 'Senha'}) %>
+          <%= f.submit "LOGAR",:class => 'btn btn-primary btn-block btn-large' %>
+        <% end %>
+      </div>
+    </div>
+</div>

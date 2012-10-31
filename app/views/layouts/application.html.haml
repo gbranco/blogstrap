@@ -1,0 +1,48 @@
+!!!
+%html
+  %head
+    = yield :titles
+    = stylesheet_link_tag    "application", 'jquery.gritter' , :media => "all"
+    = javascript_include_tag "application", 'jquery.gritter.min', 'fancyzoom/jquery.fancyzoom'
+    = yield :headers
+    = csrf_meta_tags
+  %body
+    .container
+      .navbar.navbar-fixed-top
+        .navbar-inner
+          .container
+            = link_to('Blogstrap', root_path, :title => 'go to index page :) ', :class => 'brand')
+            .pull-right
+              = form_tag root_path, :method => :get, :class => 'form-search navbar-form pull-right' do
+                .input-append
+                  = text_field_tag :search, nil, :class => 'search-query span3', :placeholder => 'faça sua busca', :style => 'margin-top:-1px;'
+                  = button_tag 'Busque', :type => 'submit', :class => 'btn', :style => 'margin-left:-4px;', :name => nil
+      %span.form_separator
+      .row
+        = yield
+    .container
+      .row
+        .span4
+          .well
+            = render '/shared/formulario_contato'
+        .span4
+          .well
+            = mais_comentados @posts_mais_comentados
+        .span4
+          .well
+            %ul.nav.nav-list
+              %li.nav-header Links úteis
+              %li= link_to 'Serviceweb', 'http://www.serviceweb.com.br', :title => 'Serviceweb, serviços e desenvolvimento web', :target => '_blank'
+              %li= link_to 'Guia do Rails', 'http://guias.rubyonrails.com.br/', :title => 'Guia inicial com todas as informações que você precisa saber para começar com Rails', :target => '_blank'
+              %li= link_to 'Linguagem Ruby', 'http://www.ruby-lang.org/pt/', :title => 'A linguagem de programação Ruby', :target => '_blank'
+              %li= link_to 'Github', 'http://www.github.com', :title => 'Versionador de código para seus projetos!', :target => '_blank'
+              %li
+                = link_to 'Twitter-Bootstrap', 'http://twitter.github.com/bootstrap/', :title => 'Twitter boostrap', :target => '_blank'
+    %span.form_separator
+    / footer
+    %footer.footer
+      .container
+        %p
+          Direitos Reservados &copy 2012. Powered by Ruby on Rails, Twitter Bootstrap & Coca-Cola!
+          %small.pull-right
+            Developed by #{link_to 'Cezinha Cezer', 'http://www.github.com/lccezinha', :title => 'veja meu github :)', :target => '_blank'}

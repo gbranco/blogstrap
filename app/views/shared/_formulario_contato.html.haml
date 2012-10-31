@@ -1,0 +1,17 @@
+%h3 Entre em contato
+= form_tag contatos_path, :method => :post, :id => 'form_contact' do
+  %span.contact_fiels
+  .input-prepend
+    %span.add-on Nome&nbsp;
+    = text_field_tag :name, nil, :placeholder => 'informe o nome', :class => 'input-xlarge required'
+  .input-prepend
+    %span.add-on Email&nbsp;
+    = text_field_tag :email, nil, :placeholder => 'informe o email', :class => 'input-xlarge required'
+  .input-prepend
+    %span.add-on Cidade
+    = text_field_tag :city, nil, :placeholder => 'informe a cidade', :class => 'input-xlarge required'
+  .input-prepend
+    %span.add-on Mensagem
+    = text_area_tag :content, nil, :placeholder => 'sua mensagem', :id => 'contact_content', :class => 'required'
+  = submit_tag 'Enviar', :class => 'btn'
+  = button_tag('Limpar Campos' , :type => :reset, :class => 'btn btn-small btn-inverse')

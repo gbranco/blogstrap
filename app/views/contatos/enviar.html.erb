@@ -1,0 +1,13 @@
+<%= hidden_field_tag :mensagem, flash[:notice], :id => 'contact_message' %>
+<script type='text/javascript'>
+$(document).ready(function (){
+
+  var mensagem = $('#contact_message').val();
+  $.gritter.add({
+	  title: 'Status de envio de contato',
+	  text: mensagem
+  });
+  console.log('enviado...'); 
+   
+})
+</script>

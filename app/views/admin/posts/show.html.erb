@@ -1,0 +1,24 @@
+<%= page_sub_title('Detalhes Post') %>
+<table class="table table-striped">
+	<thead>
+		<tr>
+			<th style='width:10%'>Campo</th>
+			<th>Valor</th>
+		</tr>
+	</thead>
+	<tbody>
+		<%= show_field_value(:name, @post.name) %>
+		<%= show_field_value(:abstract, @post.abstract ) %>
+		<%= show_field_value(:content, @post.content.html_safe) %>
+		<%= show_field_value(:category_id, @post.category.name) %>
+		<%= show_field_value(:published_at, @post.published_at) %>
+		<%= show_field_value(:author, @post.author.name) %>
+		<%= show_field_value(:situation, show_situation_status(@post.situation)) %>
+	</tbody>
+</table>
+<div class='row well'>
+	<div class='span5'><%= show_assets_for_post(@post) %></div>
+	<div class='span5' id='comments_for_post'><%= show_comments_for_post(@comments) %></div>
+</div>
+
+<%= back_button(admin_posts_path) %>

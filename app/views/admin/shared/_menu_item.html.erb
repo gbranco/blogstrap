@@ -1,0 +1,9 @@
+<% user_can_handle_actions_for_model?(model_for_menu) do %>
+<% controller = model_for_menu.to_s.downcase.pluralize %>
+	<%= nav_menu do %>
+		<%= nav_menu_item(model_for_menu.to_s.downcase) do %>
+			<%= nav_sub_menu_item(model_for_menu.to_s.downcase, :create, "new_admin_#{controller}_path" ) unless model_for_menu.constantize.eql?(Archive) || model_for_menu.constantize.eql?(Comment) %>
+			<%= nav_sub_menu_item(model_for_menu.to_s.downcase, :read, "admin_#{controller}_path" ) %>
+		<% end %>
+	<% end %>
+<% end %>

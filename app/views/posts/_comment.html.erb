@@ -1,0 +1,47 @@
+<div class='new_comment_for_post'>
+	<h3>Faça um comentário</h3>
+	<%= form_for [@comment.post, @comment], :remote => true do |f| %>
+	  
+		<div class='required_information'>
+		
+			<div class="input-prepend">
+				<span class="add-on">Nome</span>
+				<%= f.text_field :name, :placeholder => 'seu nome', :class => 'input-xlarge required' %>
+			</div>
+
+			<div class="input-prepend last">
+				<span class="add-on">Email</span>
+				<%= f.email_field :email, :placeholder => 'seu email', :class => 'input-xlarge required' %>
+			</div>
+		<span class='form_separator'></span>
+		</div>
+
+		<div class='extra_information'>
+			
+			<div class="input-prepend">
+				<span class="add-on">Empresa</span>
+				<%= f.text_field :company, :placeholder => 'onde trabalha', :class => 'input-medium' %>
+			</div>
+
+			<div class="input-prepend twitter">
+				<span class="add-on">Twitter</span>
+				<%= f.text_field :twitter, :placeholder => 'seu twitter', :class => 'input-large' %>
+			</div>
+
+			<div class="input-prepend last">
+				<span class="add-on">Facebook</span>
+				<%= f.text_field :facebook, :placeholder => 'seu facebook', :class => 'input-large' %>
+			</div>
+		<span class='form_separator'></span>
+		</div>
+		
+		<div class="input-prepend">
+			<span class="add-on">Comentário</span>
+			<%= f.text_area :content, :placeholder => 'seu comentário', :class => 'required' %>
+		</div>
+
+		<%= f.submit 'Comentar', :class => 'btn' %>
+		<%= button_tag('Limpar Campos' , :type => :reset, :class => 'btn btn-small btn-inverse') %>
+		
+	<% end %>
+</div>

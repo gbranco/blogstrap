@@ -1,0 +1,1458 @@
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.2ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM `categories`
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO `categories` (`id`, `name`, `situation`, `created_at`, `updated_at`) VALUES (1, 'Esportes', 1, '2012-10-02 19:16:22', '2012-10-02 19:16:22')[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `categories` (`id`, `name`, `situation`, `created_at`, `updated_at`) VALUES (2, 'Informática', 1, '2012-10-02 19:16:22', '2012-10-02 19:16:22')
+  [1m[36mFixture Delete (0.1ms)[0m  [1mDELETE FROM `archives`[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `archives` (`image_file_name`, `image`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyString', '2012-10-02 19:16:22', '2012-10-02 19:16:22', 980190962)
+Mysql2::Error: Unknown column 'image_file_name' in 'field list': INSERT INTO `archives` (`image_file_name`, `image`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyString', '2012-10-02 19:16:22', '2012-10-02 19:16:22', 980190962)
+  [1m[36m (44.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+  [1m[36m (0.2ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM `categories`
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `categories` (`id`, `name`, `situation`, `created_at`, `updated_at`) VALUES (1, 'Esportes', 1, '2012-10-02 19:16:22', '2012-10-02 19:16:22')[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `categories` (`id`, `name`, `situation`, `created_at`, `updated_at`) VALUES (2, 'Informática', 1, '2012-10-02 19:16:22', '2012-10-02 19:16:22')
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM `archives`[0m
+  [1m[35mFixture Insert (0.4ms)[0m  INSERT INTO `archives` (`image_file_name`, `image`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyString', '2012-10-02 19:16:22', '2012-10-02 19:16:22', 980190962)
+Mysql2::Error: Unknown column 'image_file_name' in 'field list': INSERT INTO `archives` (`image_file_name`, `image`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyString', '2012-10-02 19:16:22', '2012-10-02 19:16:22', 980190962)
+  [1m[36m (0.4ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+  [1m[36m (0.1ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM `categories`
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `categories` (`id`, `name`, `situation`, `created_at`, `updated_at`) VALUES (1, 'Esportes', 1, '2012-10-02 19:16:22', '2012-10-02 19:16:22')[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `categories` (`id`, `name`, `situation`, `created_at`, `updated_at`) VALUES (2, 'Informática', 1, '2012-10-02 19:16:22', '2012-10-02 19:16:22')
+  [1m[36mFixture Delete (0.1ms)[0m  [1mDELETE FROM `archives`[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `archives` (`image_file_name`, `image`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyString', '2012-10-02 19:16:22', '2012-10-02 19:16:22', 980190962)
+Mysql2::Error: Unknown column 'image_file_name' in 'field list': INSERT INTO `archives` (`image_file_name`, `image`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyString', '2012-10-02 19:16:22', '2012-10-02 19:16:22', 980190962)
+  [1m[36m (0.4ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+  [1m[36m (0.2ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.1ms)[0m  DELETE FROM `categories`
+  [1m[36mFixture Insert (0.5ms)[0m  [1mINSERT INTO `categories` (`id`, `name`, `situation`, `created_at`, `updated_at`) VALUES (1, 'Esportes', 1, '2012-10-02 19:16:22', '2012-10-02 19:16:22')[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `categories` (`id`, `name`, `situation`, `created_at`, `updated_at`) VALUES (2, 'Informática', 1, '2012-10-02 19:16:22', '2012-10-02 19:16:22')
+  [1m[36mFixture Delete (0.1ms)[0m  [1mDELETE FROM `archives`[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `archives` (`image_file_name`, `image`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyString', '2012-10-02 19:16:22', '2012-10-02 19:16:22', 980190962)
+Mysql2::Error: Unknown column 'image_file_name' in 'field list': INSERT INTO `archives` (`image_file_name`, `image`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyString', '2012-10-02 19:16:22', '2012-10-02 19:16:22', 980190962)
+  [1m[36m (0.5ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+  [1m[36m (0.1ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM `categories`
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `categories` (`id`, `name`, `situation`, `created_at`, `updated_at`) VALUES (1, 'Esportes', 1, '2012-10-02 19:16:22', '2012-10-02 19:16:22')[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `categories` (`id`, `name`, `situation`, `created_at`, `updated_at`) VALUES (2, 'Informática', 1, '2012-10-02 19:16:22', '2012-10-02 19:16:22')
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM `archives`[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `archives` (`image_file_name`, `image`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyString', '2012-10-02 19:16:22', '2012-10-02 19:16:22', 980190962)
+Mysql2::Error: Unknown column 'image_file_name' in 'field list': INSERT INTO `archives` (`image_file_name`, `image`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyString', '2012-10-02 19:16:22', '2012-10-02 19:16:22', 980190962)
+  [1m[36m (0.4ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+  [1m[36m (0.1ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.1ms)[0m  DELETE FROM `categories`
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `categories` (`id`, `name`, `situation`, `created_at`, `updated_at`) VALUES (1, 'Esportes', 1, '2012-10-02 19:16:22', '2012-10-02 19:16:22')[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `categories` (`id`, `name`, `situation`, `created_at`, `updated_at`) VALUES (2, 'Informática', 1, '2012-10-02 19:16:22', '2012-10-02 19:16:22')
+  [1m[36mFixture Delete (0.1ms)[0m  [1mDELETE FROM `archives`[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `archives` (`image_file_name`, `image`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyString', '2012-10-02 19:16:22', '2012-10-02 19:16:22', 980190962)
+Mysql2::Error: Unknown column 'image_file_name' in 'field list': INSERT INTO `archives` (`image_file_name`, `image`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyString', '2012-10-02 19:16:22', '2012-10-02 19:16:22', 980190962)
+  [1m[36m (2.4ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+  [1m[36m (0.1ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.1ms)[0m  DELETE FROM `categories`
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `categories` (`id`, `name`, `situation`, `created_at`, `updated_at`) VALUES (1, 'Esportes', 1, '2012-10-02 19:16:22', '2012-10-02 19:16:22')[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `categories` (`id`, `name`, `situation`, `created_at`, `updated_at`) VALUES (2, 'Informática', 1, '2012-10-02 19:16:22', '2012-10-02 19:16:22')
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM `archives`[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `archives` (`image_file_name`, `image`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyString', '2012-10-02 19:16:22', '2012-10-02 19:16:22', 980190962)
+Mysql2::Error: Unknown column 'image_file_name' in 'field list': INSERT INTO `archives` (`image_file_name`, `image`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyString', '2012-10-02 19:16:22', '2012-10-02 19:16:22', 980190962)
+  [1m[36m (0.5ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+  [1m[36m (0.1ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM `categories`
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `categories` (`id`, `name`, `situation`, `created_at`, `updated_at`) VALUES (1, 'Esportes', 1, '2012-10-02 19:16:22', '2012-10-02 19:16:22')[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `categories` (`id`, `name`, `situation`, `created_at`, `updated_at`) VALUES (2, 'Informática', 1, '2012-10-02 19:16:22', '2012-10-02 19:16:22')
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM `archives`[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `archives` (`image_file_name`, `image`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyString', '2012-10-02 19:16:22', '2012-10-02 19:16:22', 980190962)
+Mysql2::Error: Unknown column 'image_file_name' in 'field list': INSERT INTO `archives` (`image_file_name`, `image`, `created_at`, `updated_at`, `id`) VALUES ('MyString', 'MyString', '2012-10-02 19:16:22', '2012-10-02 19:16:22', 980190962)
+  [1m[36m (0.4ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.2ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.1ms)[0m  DELETE FROM `categories`
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO `categories` (`id`, `name`, `situation`, `created_at`, `updated_at`) VALUES (1, 'Esportes', 1, '2012-10-02 19:23:56', '2012-10-02 19:23:56')[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `categories` (`id`, `name`, `situation`, `created_at`, `updated_at`) VALUES (2, 'Informática', 1, '2012-10-02 19:23:56', '2012-10-02 19:23:56')
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM `posts`[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `posts` (`id`, `name`, `content`, `published_at`, `situation`, `author_id`, `created_at`, `updated_at`) VALUES (1, 'Esse é o meu primeiro Post', 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod', '2012-09-20', 1, 2, '2012-10-02 19:23:56', '2012-10-02 19:23:56')
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `posts` (`id`, `name`, `content`, `published_at`, `situation`, `author_id`, `created_at`, `updated_at`) VALUES (2, 'Esse é meu segundo Post fera!', 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod', '2012-09-20', 1, 2, '2012-10-02 19:23:56', '2012-10-02 19:23:56')[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `posts` (`id`, `name`, `content`, `published_at`, `situation`, `author_id`, `created_at`, `updated_at`) VALUES (3, 'Esse e meu terceiro post feraaaa', 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod', '2012-09-24', 1, 1, '2012-10-02 19:23:56', '2012-10-02 19:23:56')
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM `comments`[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Valter Ekert', 'valterekert@hotmail.com', 'Serviceweb', 'valterekert', 'valterkert', 'Esse é meu primeiro comentário sobre o blog', '2012-10-02 19:23:56', '2012-10-02 19:23:56', 744043030, 64810937)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Tiago Jantanova', 'tiagojantanova@hotmail.com', 'Serviceweb', 'tiagojantanova', 'tiagojantanova', 'Muito bom o posto sobre TDD', '2012-10-02 19:23:56', '2012-10-02 19:23:56', 682221006, 768773788)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Mauricio de Rosário', 'mauriciorosario@hotmail.com', 'Serviceweb', 'mauriciorosario', 'mauriciorosario', 'Quero alterar meu site pode', '2012-10-02 19:23:56', '2012-10-02 19:23:56', 16512385, 450215437)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Rafael Tibola noob', 'rafaelnoob@hotmail.com', 'Serviceweb', 'rafaelnoob', 'rafaelnoob', 'Ruby é uma linguagem muito boa', '2012-10-02 19:23:56', '2012-10-02 19:23:56', 360065829, 450215437)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Alex Ninja', 'alexroveda@hotmail.com', 'Serviceweb', 'alexroveda', 'alexroveda', 'Gosto mais de Ruby do que batata e html', '2012-10-02 19:23:56', '2012-10-02 19:23:56', 725439032, 450215437)
+  [1m[36m (2.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `comments` (`company`, `content`, `created_at`, `email`, `facebook`, `name`, `post_id`, `situation`, `twitter`, `updated_at`) VALUES (NULL, NULL, '2012-10-02 19:23:56', NULL, NULL, NULL, NULL, 0, NULL, '2012-10-02 19:23:56')[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.5ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `comments` (`company`, `content`, `created_at`, `email`, `facebook`, `name`, `post_id`, `situation`, `twitter`, `updated_at`) VALUES (NULL, NULL, '2012-10-02 19:23:56', NULL, NULL, NULL, NULL, 0, NULL, '2012-10-02 19:23:56')
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mPost Exists (0.7ms)[0m  [1mSELECT 1 AS one FROM `posts` WHERE `posts`.`name` IS NULL LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mPost Exists (0.2ms)[0m  SELECT 1 AS one FROM `posts` WHERE `posts`.`name` IS NULL LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mPost Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM `posts` WHERE `posts`.`name` IS NULL LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mPost Exists (0.1ms)[0m  SELECT 1 AS one FROM `posts` WHERE `posts`.`name` IS NULL LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mPost Exists (0.3ms)[0m  [1mSELECT 1 AS one FROM `posts` WHERE `posts`.`name` IS NULL LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.2ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM `categories`
+  [1m[36mFixture Insert (0.4ms)[0m  [1mINSERT INTO `categories` (`id`, `name`, `situation`, `created_at`, `updated_at`) VALUES (1, 'Esportes', 1, '2012-10-02 19:24:43', '2012-10-02 19:24:43')[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `categories` (`id`, `name`, `situation`, `created_at`, `updated_at`) VALUES (2, 'Informática', 1, '2012-10-02 19:24:43', '2012-10-02 19:24:43')
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM `posts`[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `posts` (`id`, `name`, `content`, `published_at`, `situation`, `author_id`, `created_at`, `updated_at`) VALUES (1, 'Esse é o meu primeiro Post', 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod', '2012-09-20', 1, 2, '2012-10-02 19:24:43', '2012-10-02 19:24:43')
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `posts` (`id`, `name`, `content`, `published_at`, `situation`, `author_id`, `created_at`, `updated_at`) VALUES (2, 'Esse é meu segundo Post fera!', 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod', '2012-09-20', 1, 2, '2012-10-02 19:24:43', '2012-10-02 19:24:43')[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `posts` (`id`, `name`, `content`, `published_at`, `situation`, `author_id`, `created_at`, `updated_at`) VALUES (3, 'Esse e meu terceiro post feraaaa', 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod', '2012-09-24', 1, 1, '2012-10-02 19:24:43', '2012-10-02 19:24:43')
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM `comments`[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Valter Ekert', 'valterekert@hotmail.com', 'Serviceweb', 'valterekert', 'valterkert', 'Esse é meu primeiro comentário sobre o blog', '2012-10-02 19:24:43', '2012-10-02 19:24:43', 744043030, 64810937)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Tiago Jantanova', 'tiagojantanova@hotmail.com', 'Serviceweb', 'tiagojantanova', 'tiagojantanova', 'Muito bom o posto sobre TDD', '2012-10-02 19:24:43', '2012-10-02 19:24:43', 682221006, 768773788)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Mauricio de Rosário', 'mauriciorosario@hotmail.com', 'Serviceweb', 'mauriciorosario', 'mauriciorosario', 'Quero alterar meu site pode', '2012-10-02 19:24:43', '2012-10-02 19:24:43', 16512385, 450215437)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Rafael Tibola noob', 'rafaelnoob@hotmail.com', 'Serviceweb', 'rafaelnoob', 'rafaelnoob', 'Ruby é uma linguagem muito boa', '2012-10-02 19:24:43', '2012-10-02 19:24:43', 360065829, 450215437)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Alex Ninja', 'alexroveda@hotmail.com', 'Serviceweb', 'alexroveda', 'alexroveda', 'Gosto mais de Ruby do que batata e html', '2012-10-02 19:24:43', '2012-10-02 19:24:43', 725439032, 450215437)
+  [1m[36m (2.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `comments` (`company`, `content`, `created_at`, `email`, `facebook`, `name`, `post_id`, `situation`, `twitter`, `updated_at`) VALUES (NULL, NULL, '2012-10-02 19:24:44', NULL, NULL, NULL, NULL, 0, NULL, '2012-10-02 19:24:44')[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (1.7ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `comments` (`company`, `content`, `created_at`, `email`, `facebook`, `name`, `post_id`, `situation`, `twitter`, `updated_at`) VALUES (NULL, NULL, '2012-10-02 19:24:44', NULL, NULL, NULL, NULL, 0, NULL, '2012-10-02 19:24:44')
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35m (0.5ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `comments` (`company`, `content`, `created_at`, `email`, `facebook`, `name`, `post_id`, `situation`, `twitter`, `updated_at`) VALUES (NULL, NULL, '2012-10-02 19:24:44', NULL, NULL, NULL, NULL, 0, NULL, '2012-10-02 19:24:44')[0m
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.4ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mPost Exists (0.5ms)[0m  SELECT 1 AS one FROM `posts` WHERE `posts`.`name` IS NULL LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mPost Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM `posts` WHERE `posts`.`name` IS NULL LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mPost Exists (0.2ms)[0m  SELECT 1 AS one FROM `posts` WHERE `posts`.`name` IS NULL LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mPost Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM `posts` WHERE `posts`.`name` IS NULL LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mPost Exists (0.1ms)[0m  SELECT 1 AS one FROM `posts` WHERE `posts`.`name` IS NULL LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.2ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM `categories`
+  [1m[36mFixture Insert (0.4ms)[0m  [1mINSERT INTO `categories` (`id`, `name`, `situation`, `created_at`, `updated_at`) VALUES (1, 'Esportes', 1, '2012-10-02 19:27:01', '2012-10-02 19:27:01')[0m
+  [1m[35mFixture Insert (0.5ms)[0m  INSERT INTO `categories` (`id`, `name`, `situation`, `created_at`, `updated_at`) VALUES (2, 'Informática', 1, '2012-10-02 19:27:01', '2012-10-02 19:27:01')
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM `posts`[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `posts` (`id`, `name`, `content`, `published_at`, `situation`, `author_id`, `created_at`, `updated_at`) VALUES (1, 'Esse é o meu primeiro Post', 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod', '2012-09-20', 1, 2, '2012-10-02 19:27:01', '2012-10-02 19:27:01')
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO `posts` (`id`, `name`, `content`, `published_at`, `situation`, `author_id`, `created_at`, `updated_at`) VALUES (2, 'Esse é meu segundo Post fera!', 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod', '2012-09-20', 1, 2, '2012-10-02 19:27:01', '2012-10-02 19:27:01')[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `posts` (`id`, `name`, `content`, `published_at`, `situation`, `author_id`, `created_at`, `updated_at`) VALUES (3, 'Esse e meu terceiro post feraaaa', 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod', '2012-09-24', 1, 1, '2012-10-02 19:27:01', '2012-10-02 19:27:01')
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM `comments`[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Valter Ekert', 'valterekert@hotmail.com', 'Serviceweb', 'valterekert', 'valterkert', 'Esse é meu primeiro comentário sobre o blog', '2012-10-02 19:27:01', '2012-10-02 19:27:01', 744043030, 64810937)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Tiago Jantanova', 'tiagojantanova@hotmail.com', 'Serviceweb', 'tiagojantanova', 'tiagojantanova', 'Muito bom o posto sobre TDD', '2012-10-02 19:27:01', '2012-10-02 19:27:01', 682221006, 768773788)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Mauricio de Rosário', 'mauriciorosario@hotmail.com', 'Serviceweb', 'mauriciorosario', 'mauriciorosario', 'Quero alterar meu site pode', '2012-10-02 19:27:01', '2012-10-02 19:27:01', 16512385, 450215437)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Rafael Tibola noob', 'rafaelnoob@hotmail.com', 'Serviceweb', 'rafaelnoob', 'rafaelnoob', 'Ruby é uma linguagem muito boa', '2012-10-02 19:27:01', '2012-10-02 19:27:01', 360065829, 450215437)[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Alex Ninja', 'alexroveda@hotmail.com', 'Serviceweb', 'alexroveda', 'alexroveda', 'Gosto mais de Ruby do que batata e html', '2012-10-02 19:27:01', '2012-10-02 19:27:01', 725439032, 450215437)
+  [1m[36m (3.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mPost Exists (1.0ms)[0m  [1mSELECT 1 AS one FROM `posts` WHERE `posts`.`name` IS NULL LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mPost Exists (0.2ms)[0m  SELECT 1 AS one FROM `posts` WHERE `posts`.`name` IS NULL LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mPost Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM `posts` WHERE `posts`.`name` IS NULL LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mPost Exists (0.2ms)[0m  SELECT 1 AS one FROM `posts` WHERE `posts`.`name` IS NULL LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mPost Exists (53.2ms)[0m  [1mSELECT 1 AS one FROM `posts` WHERE `posts`.`name` IS NULL LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.2ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM `categories`
+  [1m[36mFixture Insert (0.4ms)[0m  [1mINSERT INTO `categories` (`id`, `name`, `situation`, `created_at`, `updated_at`) VALUES (1, 'Esportes', 1, '2012-10-02 19:28:59', '2012-10-02 19:28:59')[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `categories` (`id`, `name`, `situation`, `created_at`, `updated_at`) VALUES (2, 'Informática', 1, '2012-10-02 19:28:59', '2012-10-02 19:28:59')
+  [1m[36mFixture Delete (0.1ms)[0m  [1mDELETE FROM `posts`[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `posts` (`id`, `name`, `content`, `published_at`, `situation`, `author_id`, `created_at`, `updated_at`) VALUES (1, 'Esse é o meu primeiro Post', 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod', '2012-09-20', 1, 2, '2012-10-02 19:28:59', '2012-10-02 19:28:59')
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `posts` (`id`, `name`, `content`, `published_at`, `situation`, `author_id`, `created_at`, `updated_at`) VALUES (2, 'Esse é meu segundo Post fera!', 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod', '2012-09-20', 1, 2, '2012-10-02 19:28:59', '2012-10-02 19:28:59')[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `posts` (`id`, `name`, `content`, `published_at`, `situation`, `author_id`, `created_at`, `updated_at`) VALUES (3, 'Esse e meu terceiro post feraaaa', 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod', '2012-09-24', 1, 1, '2012-10-02 19:28:59', '2012-10-02 19:28:59')
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM `comments`[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Valter Ekert', 'valterekert@hotmail.com', 'Serviceweb', 'valterekert', 'valterkert', 'Esse é meu primeiro comentário sobre o blog', '2012-10-02 19:28:59', '2012-10-02 19:28:59', 744043030, 64810937)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Tiago Jantanova', 'tiagojantanova@hotmail.com', 'Serviceweb', 'tiagojantanova', 'tiagojantanova', 'Muito bom o posto sobre TDD', '2012-10-02 19:28:59', '2012-10-02 19:28:59', 682221006, 768773788)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Mauricio de Rosário', 'mauriciorosario@hotmail.com', 'Serviceweb', 'mauriciorosario', 'mauriciorosario', 'Quero alterar meu site pode', '2012-10-02 19:28:59', '2012-10-02 19:28:59', 16512385, 450215437)
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Rafael Tibola noob', 'rafaelnoob@hotmail.com', 'Serviceweb', 'rafaelnoob', 'rafaelnoob', 'Ruby é uma linguagem muito boa', '2012-10-02 19:28:59', '2012-10-02 19:28:59', 360065829, 450215437)[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Alex Ninja', 'alexroveda@hotmail.com', 'Serviceweb', 'alexroveda', 'alexroveda', 'Gosto mais de Ruby do que batata e html', '2012-10-02 19:28:59', '2012-10-02 19:28:59', 725439032, 450215437)
+  [1m[36m (2.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mPost Exists (0.4ms)[0m  [1mSELECT 1 AS one FROM `posts` WHERE `posts`.`name` IS NULL LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mPost Exists (0.1ms)[0m  SELECT 1 AS one FROM `posts` WHERE `posts`.`name` IS NULL LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mPost Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM `posts` WHERE `posts`.`name` IS NULL LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mPost Exists (0.2ms)[0m  SELECT 1 AS one FROM `posts` WHERE `posts`.`name` IS NULL LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mPost Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM `posts` WHERE `posts`.`name` IS NULL LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.2ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.1ms)[0m  DELETE FROM `categories`
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO `categories` (`id`, `name`, `situation`, `created_at`, `updated_at`) VALUES (1, 'Esportes', 1, '2012-10-02 19:29:25', '2012-10-02 19:29:25')[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `categories` (`id`, `name`, `situation`, `created_at`, `updated_at`) VALUES (2, 'Informática', 1, '2012-10-02 19:29:25', '2012-10-02 19:29:25')
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM `posts`[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `posts` (`id`, `name`, `content`, `published_at`, `situation`, `author_id`, `created_at`, `updated_at`) VALUES (1, 'Esse é o meu primeiro Post', 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod', '2012-09-20', 1, 2, '2012-10-02 19:29:25', '2012-10-02 19:29:25')
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `posts` (`id`, `name`, `content`, `published_at`, `situation`, `author_id`, `created_at`, `updated_at`) VALUES (2, 'Esse é meu segundo Post fera!', 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod', '2012-09-20', 1, 2, '2012-10-02 19:29:25', '2012-10-02 19:29:25')[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `posts` (`id`, `name`, `content`, `published_at`, `situation`, `author_id`, `created_at`, `updated_at`) VALUES (3, 'Esse e meu terceiro post feraaaa', 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod', '2012-09-24', 1, 1, '2012-10-02 19:29:25', '2012-10-02 19:29:25')
+  [1m[36mFixture Delete (0.3ms)[0m  [1mDELETE FROM `comments`[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Valter Ekert', 'valterekert@hotmail.com', 'Serviceweb', 'valterekert', 'valterkert', 'Esse é meu primeiro comentário sobre o blog', '2012-10-02 19:29:25', '2012-10-02 19:29:25', 744043030, 64810937)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Tiago Jantanova', 'tiagojantanova@hotmail.com', 'Serviceweb', 'tiagojantanova', 'tiagojantanova', 'Muito bom o posto sobre TDD', '2012-10-02 19:29:25', '2012-10-02 19:29:25', 682221006, 768773788)[0m
+  [1m[35mFixture Insert (0.4ms)[0m  INSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Mauricio de Rosário', 'mauriciorosario@hotmail.com', 'Serviceweb', 'mauriciorosario', 'mauriciorosario', 'Quero alterar meu site pode', '2012-10-02 19:29:25', '2012-10-02 19:29:25', 16512385, 450215437)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Rafael Tibola noob', 'rafaelnoob@hotmail.com', 'Serviceweb', 'rafaelnoob', 'rafaelnoob', 'Ruby é uma linguagem muito boa', '2012-10-02 19:29:25', '2012-10-02 19:29:25', 360065829, 450215437)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Alex Ninja', 'alexroveda@hotmail.com', 'Serviceweb', 'alexroveda', 'alexroveda', 'Gosto mais de Ruby do que batata e html', '2012-10-02 19:29:25', '2012-10-02 19:29:25', 725439032, 450215437)
+  [1m[36m (13.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mPost Exists (0.4ms)[0m  [1mSELECT 1 AS one FROM `posts` WHERE `posts`.`name` IS NULL LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mPost Exists (0.1ms)[0m  SELECT 1 AS one FROM `posts` WHERE `posts`.`name` IS NULL LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mPost Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM `posts` WHERE `posts`.`name` IS NULL LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mPost Exists (0.1ms)[0m  SELECT 1 AS one FROM `posts` WHERE `posts`.`name` IS NULL LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mPost Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM `posts` WHERE `posts`.`name` IS NULL LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.2ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.1ms)[0m  DELETE FROM `categories`
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO `categories` (`id`, `name`, `situation`, `created_at`, `updated_at`) VALUES (1, 'Esportes', 1, '2012-10-02 20:05:29', '2012-10-02 20:05:29')[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `categories` (`id`, `name`, `situation`, `created_at`, `updated_at`) VALUES (2, 'Informática', 1, '2012-10-02 20:05:29', '2012-10-02 20:05:29')
+  [1m[36mFixture Delete (0.1ms)[0m  [1mDELETE FROM `posts`[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `posts` (`id`, `name`, `content`, `published_at`, `situation`, `author_id`, `created_at`, `updated_at`) VALUES (1, 'Esse é o meu primeiro Post', 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod', '2012-09-20', 1, 2, '2012-10-02 20:05:29', '2012-10-02 20:05:29')
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `posts` (`id`, `name`, `content`, `published_at`, `situation`, `author_id`, `created_at`, `updated_at`) VALUES (2, 'Esse é meu segundo Post fera!', 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod', '2012-09-20', 1, 2, '2012-10-02 20:05:29', '2012-10-02 20:05:29')[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `posts` (`id`, `name`, `content`, `published_at`, `situation`, `author_id`, `created_at`, `updated_at`) VALUES (3, 'Esse e meu terceiro post feraaaa', 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod', '2012-09-24', 1, 1, '2012-10-02 20:05:29', '2012-10-02 20:05:29')
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM `comments`[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Valter Ekert', 'valterekert@hotmail.com', 'Serviceweb', 'valterekert', 'valterkert', 'Esse é meu primeiro comentário sobre o blog', '2012-10-02 20:05:29', '2012-10-02 20:05:29', 744043030, 64810937)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Tiago Jantanova', 'tiagojantanova@hotmail.com', 'Serviceweb', 'tiagojantanova', 'tiagojantanova', 'Muito bom o posto sobre TDD', '2012-10-02 20:05:29', '2012-10-02 20:05:29', 682221006, 768773788)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Mauricio de Rosário', 'mauriciorosario@hotmail.com', 'Serviceweb', 'mauriciorosario', 'mauriciorosario', 'Quero alterar meu site pode', '2012-10-02 20:05:29', '2012-10-02 20:05:29', 16512385, 450215437)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Rafael Tibola noob', 'rafaelnoob@hotmail.com', 'Serviceweb', 'rafaelnoob', 'rafaelnoob', 'Ruby é uma linguagem muito boa', '2012-10-02 20:05:29', '2012-10-02 20:05:29', 360065829, 450215437)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Alex Ninja', 'alexroveda@hotmail.com', 'Serviceweb', 'alexroveda', 'alexroveda', 'Gosto mais de Ruby do que batata e html', '2012-10-02 20:05:29', '2012-10-02 20:05:29', 725439032, 450215437)
+  [1m[36m (18.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mPost Exists (0.7ms)[0m  [1mSELECT 1 AS one FROM `posts` WHERE `posts`.`name` IS NULL LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mPost Exists (0.2ms)[0m  SELECT 1 AS one FROM `posts` WHERE `posts`.`name` IS NULL LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mPost Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM `posts` WHERE `posts`.`name` IS NULL LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mPost Exists (0.2ms)[0m  SELECT 1 AS one FROM `posts` WHERE `posts`.`name` IS NULL LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mPost Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM `posts` WHERE `posts`.`name` IS NULL LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.2ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.3ms)[0m  DELETE FROM `categories`
+  [1m[36mFixture Insert (0.4ms)[0m  [1mINSERT INTO `categories` (`id`, `name`, `situation`, `created_at`, `updated_at`) VALUES (1, 'Esportes', 1, '2012-10-02 20:05:51', '2012-10-02 20:05:51')[0m
+  [1m[35mFixture Insert (0.8ms)[0m  INSERT INTO `categories` (`id`, `name`, `situation`, `created_at`, `updated_at`) VALUES (2, 'Informática', 1, '2012-10-02 20:05:51', '2012-10-02 20:05:51')
+  [1m[36mFixture Delete (0.6ms)[0m  [1mDELETE FROM `posts`[0m
+  [1m[35mFixture Insert (0.6ms)[0m  INSERT INTO `posts` (`id`, `name`, `content`, `published_at`, `situation`, `author_id`, `created_at`, `updated_at`) VALUES (1, 'Esse é o meu primeiro Post', 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod', '2012-09-20', 1, 2, '2012-10-02 20:05:51', '2012-10-02 20:05:51')
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `posts` (`id`, `name`, `content`, `published_at`, `situation`, `author_id`, `created_at`, `updated_at`) VALUES (2, 'Esse é meu segundo Post fera!', 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod', '2012-09-20', 1, 2, '2012-10-02 20:05:51', '2012-10-02 20:05:51')[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `posts` (`id`, `name`, `content`, `published_at`, `situation`, `author_id`, `created_at`, `updated_at`) VALUES (3, 'Esse e meu terceiro post feraaaa', 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod', '2012-09-24', 1, 1, '2012-10-02 20:05:51', '2012-10-02 20:05:51')
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM `comments`[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Valter Ekert', 'valterekert@hotmail.com', 'Serviceweb', 'valterekert', 'valterkert', 'Esse é meu primeiro comentário sobre o blog', '2012-10-02 20:05:51', '2012-10-02 20:05:51', 744043030, 64810937)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Tiago Jantanova', 'tiagojantanova@hotmail.com', 'Serviceweb', 'tiagojantanova', 'tiagojantanova', 'Muito bom o posto sobre TDD', '2012-10-02 20:05:51', '2012-10-02 20:05:51', 682221006, 768773788)[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Mauricio de Rosário', 'mauriciorosario@hotmail.com', 'Serviceweb', 'mauriciorosario', 'mauriciorosario', 'Quero alterar meu site pode', '2012-10-02 20:05:51', '2012-10-02 20:05:51', 16512385, 450215437)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Rafael Tibola noob', 'rafaelnoob@hotmail.com', 'Serviceweb', 'rafaelnoob', 'rafaelnoob', 'Ruby é uma linguagem muito boa', '2012-10-02 20:05:51', '2012-10-02 20:05:51', 360065829, 450215437)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Alex Ninja', 'alexroveda@hotmail.com', 'Serviceweb', 'alexroveda', 'alexroveda', 'Gosto mais de Ruby do que batata e html', '2012-10-02 20:05:51', '2012-10-02 20:05:51', 725439032, 450215437)
+  [1m[36m (3.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mPost Exists (0.4ms)[0m  [1mSELECT 1 AS one FROM `posts` WHERE `posts`.`name` IS NULL LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mPost Exists (0.2ms)[0m  SELECT 1 AS one FROM `posts` WHERE `posts`.`name` IS NULL LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mPost Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM `posts` WHERE `posts`.`name` IS NULL LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mPost Exists (0.1ms)[0m  SELECT 1 AS one FROM `posts` WHERE `posts`.`name` IS NULL LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mPost Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM `posts` WHERE `posts`.`name` IS NULL LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.2ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM `categories`
+  [1m[36mFixture Insert (0.4ms)[0m  [1mINSERT INTO `categories` (`id`, `name`, `situation`, `created_at`, `updated_at`) VALUES (1, 'Esportes', 1, '2012-10-02 20:10:40', '2012-10-02 20:10:40')[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `categories` (`id`, `name`, `situation`, `created_at`, `updated_at`) VALUES (2, 'Informática', 1, '2012-10-02 20:10:40', '2012-10-02 20:10:40')
+  [1m[36mFixture Delete (0.4ms)[0m  [1mDELETE FROM `posts`[0m
+  [1m[35mFixture Insert (0.8ms)[0m  INSERT INTO `posts` (`id`, `name`, `content`, `published_at`, `situation`, `author_id`, `created_at`, `updated_at`) VALUES (1, 'Esse é o meu primeiro Post', 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod', '2012-09-20', 1, 2, '2012-10-02 20:10:40', '2012-10-02 20:10:40')
+  [1m[36mFixture Insert (0.7ms)[0m  [1mINSERT INTO `posts` (`id`, `name`, `content`, `published_at`, `situation`, `author_id`, `created_at`, `updated_at`) VALUES (2, 'Esse é meu segundo Post fera!', 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod', '2012-09-20', 1, 2, '2012-10-02 20:10:40', '2012-10-02 20:10:40')[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `posts` (`id`, `name`, `content`, `published_at`, `situation`, `author_id`, `created_at`, `updated_at`) VALUES (3, 'Esse e meu terceiro post feraaaa', 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod', '2012-09-24', 1, 1, '2012-10-02 20:10:40', '2012-10-02 20:10:40')
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM `comments`[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Valter Ekert', 'valterekert@hotmail.com', 'Serviceweb', 'valterekert', 'valterkert', 'Esse é meu primeiro comentário sobre o blog', '2012-10-02 20:10:40', '2012-10-02 20:10:40', 744043030, 64810937)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Tiago Jantanova', 'tiagojantanova@hotmail.com', 'Serviceweb', 'tiagojantanova', 'tiagojantanova', 'Muito bom o posto sobre TDD', '2012-10-02 20:10:40', '2012-10-02 20:10:40', 682221006, 768773788)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Mauricio de Rosário', 'mauriciorosario@hotmail.com', 'Serviceweb', 'mauriciorosario', 'mauriciorosario', 'Quero alterar meu site pode', '2012-10-02 20:10:40', '2012-10-02 20:10:40', 16512385, 450215437)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Rafael Tibola noob', 'rafaelnoob@hotmail.com', 'Serviceweb', 'rafaelnoob', 'rafaelnoob', 'Ruby é uma linguagem muito boa', '2012-10-02 20:10:40', '2012-10-02 20:10:40', 360065829, 450215437)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Alex Ninja', 'alexroveda@hotmail.com', 'Serviceweb', 'alexroveda', 'alexroveda', 'Gosto mais de Ruby do que batata e html', '2012-10-02 20:10:40', '2012-10-02 20:10:40', 725439032, 450215437)
+  [1m[36m (24.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mPost Exists (0.4ms)[0m  [1mSELECT 1 AS one FROM `posts` WHERE `posts`.`name` IS NULL LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mPost Exists (0.2ms)[0m  SELECT 1 AS one FROM `posts` WHERE `posts`.`name` IS NULL LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mPost Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM `posts` WHERE `posts`.`name` IS NULL LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mPost Exists (0.1ms)[0m  SELECT 1 AS one FROM `posts` WHERE `posts`.`name` IS NULL LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mPost Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM `posts` WHERE `posts`.`name` IS NULL LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.2ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM `categories`
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO `categories` (`id`, `name`, `situation`, `created_at`, `updated_at`) VALUES (1, 'Esportes', 1, '2012-10-02 20:12:15', '2012-10-02 20:12:15')[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `categories` (`id`, `name`, `situation`, `created_at`, `updated_at`) VALUES (2, 'Informática', 1, '2012-10-02 20:12:15', '2012-10-02 20:12:15')
+  [1m[36mFixture Delete (0.7ms)[0m  [1mDELETE FROM `posts`[0m
+  [1m[35mFixture Insert (0.5ms)[0m  INSERT INTO `posts` (`id`, `name`, `content`, `published_at`, `situation`, `author_id`, `created_at`, `updated_at`) VALUES (1, 'Esse é o meu primeiro Post', 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod', '2012-09-20', 1, 2, '2012-10-02 20:12:15', '2012-10-02 20:12:15')
+  [1m[36mFixture Insert (0.5ms)[0m  [1mINSERT INTO `posts` (`id`, `name`, `content`, `published_at`, `situation`, `author_id`, `created_at`, `updated_at`) VALUES (2, 'Esse é meu segundo Post fera!', 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod', '2012-09-20', 1, 2, '2012-10-02 20:12:15', '2012-10-02 20:12:15')[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `posts` (`id`, `name`, `content`, `published_at`, `situation`, `author_id`, `created_at`, `updated_at`) VALUES (3, 'Esse e meu terceiro post feraaaa', 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod', '2012-09-24', 1, 1, '2012-10-02 20:12:15', '2012-10-02 20:12:15')
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM `comments`[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Valter Ekert', 'valterekert@hotmail.com', 'Serviceweb', 'valterekert', 'valterkert', 'Esse é meu primeiro comentário sobre o blog', '2012-10-02 20:12:15', '2012-10-02 20:12:15', 744043030, 64810937)
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Tiago Jantanova', 'tiagojantanova@hotmail.com', 'Serviceweb', 'tiagojantanova', 'tiagojantanova', 'Muito bom o posto sobre TDD', '2012-10-02 20:12:15', '2012-10-02 20:12:15', 682221006, 768773788)[0m
+  [1m[35mFixture Insert (0.4ms)[0m  INSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Mauricio de Rosário', 'mauriciorosario@hotmail.com', 'Serviceweb', 'mauriciorosario', 'mauriciorosario', 'Quero alterar meu site pode', '2012-10-02 20:12:15', '2012-10-02 20:12:15', 16512385, 450215437)
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Rafael Tibola noob', 'rafaelnoob@hotmail.com', 'Serviceweb', 'rafaelnoob', 'rafaelnoob', 'Ruby é uma linguagem muito boa', '2012-10-02 20:12:15', '2012-10-02 20:12:15', 360065829, 450215437)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Alex Ninja', 'alexroveda@hotmail.com', 'Serviceweb', 'alexroveda', 'alexroveda', 'Gosto mais de Ruby do que batata e html', '2012-10-02 20:12:15', '2012-10-02 20:12:15', 725439032, 450215437)
+  [1m[36m (5.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mPost Exists (0.5ms)[0m  [1mSELECT 1 AS one FROM `posts` WHERE `posts`.`name` IS NULL LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mPost Exists (0.2ms)[0m  SELECT 1 AS one FROM `posts` WHERE `posts`.`name` IS NULL LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mPost Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM `posts` WHERE `posts`.`name` IS NULL LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mPost Exists (0.2ms)[0m  SELECT 1 AS one FROM `posts` WHERE `posts`.`name` IS NULL LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mPost Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM `posts` WHERE `posts`.`name` IS NULL LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.2ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.1ms)[0m  DELETE FROM `categories`
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO `categories` (`id`, `name`, `situation`, `created_at`, `updated_at`) VALUES (1, 'Esportes', 1, '2012-10-02 20:14:33', '2012-10-02 20:14:33')[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `categories` (`id`, `name`, `situation`, `created_at`, `updated_at`) VALUES (2, 'Informática', 1, '2012-10-02 20:14:33', '2012-10-02 20:14:33')
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM `posts`[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `posts` (`id`, `name`, `content`, `published_at`, `situation`, `author_id`, `created_at`, `updated_at`) VALUES (1, 'Esse é o meu primeiro Post', 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod', '2012-09-20', 1, 2, '2012-10-02 20:14:33', '2012-10-02 20:14:33')
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `posts` (`id`, `name`, `content`, `published_at`, `situation`, `author_id`, `created_at`, `updated_at`) VALUES (2, 'Esse é meu segundo Post fera!', 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod', '2012-09-20', 1, 2, '2012-10-02 20:14:33', '2012-10-02 20:14:33')[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `posts` (`id`, `name`, `content`, `published_at`, `situation`, `author_id`, `created_at`, `updated_at`) VALUES (3, 'Esse e meu terceiro post feraaaa', 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod', '2012-09-24', 1, 1, '2012-10-02 20:14:33', '2012-10-02 20:14:33')
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM `comments`[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Valter Ekert', 'valterekert@hotmail.com', 'Serviceweb', 'valterekert', 'valterkert', 'Esse é meu primeiro comentário sobre o blog', '2012-10-02 20:14:33', '2012-10-02 20:14:33', 744043030, 64810937)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Tiago Jantanova', 'tiagojantanova@hotmail.com', 'Serviceweb', 'tiagojantanova', 'tiagojantanova', 'Muito bom o posto sobre TDD', '2012-10-02 20:14:33', '2012-10-02 20:14:33', 682221006, 768773788)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Mauricio de Rosário', 'mauriciorosario@hotmail.com', 'Serviceweb', 'mauriciorosario', 'mauriciorosario', 'Quero alterar meu site pode', '2012-10-02 20:14:33', '2012-10-02 20:14:33', 16512385, 450215437)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Rafael Tibola noob', 'rafaelnoob@hotmail.com', 'Serviceweb', 'rafaelnoob', 'rafaelnoob', 'Ruby é uma linguagem muito boa', '2012-10-02 20:14:33', '2012-10-02 20:14:33', 360065829, 450215437)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Alex Ninja', 'alexroveda@hotmail.com', 'Serviceweb', 'alexroveda', 'alexroveda', 'Gosto mais de Ruby do que batata e html', '2012-10-02 20:14:33', '2012-10-02 20:14:33', 725439032, 450215437)
+  [1m[36m (2.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mPost Exists (50.5ms)[0m  [1mSELECT 1 AS one FROM `posts` WHERE `posts`.`name` IS NULL LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mPost Exists (0.2ms)[0m  SELECT 1 AS one FROM `posts` WHERE `posts`.`name` IS NULL LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mPost Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM `posts` WHERE `posts`.`name` IS NULL LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mPost Exists (0.1ms)[0m  SELECT 1 AS one FROM `posts` WHERE `posts`.`name` IS NULL LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mPost Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM `posts` WHERE `posts`.`name` IS NULL LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.2ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM `categories`
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO `categories` (`id`, `name`, `situation`, `created_at`, `updated_at`) VALUES (1, 'Esportes', 1, '2012-10-02 20:15:50', '2012-10-02 20:15:50')[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `categories` (`id`, `name`, `situation`, `created_at`, `updated_at`) VALUES (2, 'Informática', 1, '2012-10-02 20:15:50', '2012-10-02 20:15:50')
+  [1m[36mFixture Delete (0.4ms)[0m  [1mDELETE FROM `posts`[0m
+  [1m[35mFixture Insert (0.8ms)[0m  INSERT INTO `posts` (`id`, `name`, `content`, `published_at`, `situation`, `author_id`, `created_at`, `updated_at`) VALUES (1, 'Esse é o meu primeiro Post', 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod', '2012-09-20', 1, 2, '2012-10-02 20:15:50', '2012-10-02 20:15:50')
+  [1m[36mFixture Insert (0.9ms)[0m  [1mINSERT INTO `posts` (`id`, `name`, `content`, `published_at`, `situation`, `author_id`, `created_at`, `updated_at`) VALUES (2, 'Esse é meu segundo Post fera!', 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod', '2012-09-20', 1, 2, '2012-10-02 20:15:50', '2012-10-02 20:15:50')[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `posts` (`id`, `name`, `content`, `published_at`, `situation`, `author_id`, `created_at`, `updated_at`) VALUES (3, 'Esse e meu terceiro post feraaaa', 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod', '2012-09-24', 1, 1, '2012-10-02 20:15:50', '2012-10-02 20:15:50')
+  [1m[36mFixture Delete (0.9ms)[0m  [1mDELETE FROM `comments`[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Valter Ekert', 'valterekert@hotmail.com', 'Serviceweb', 'valterekert', 'valterkert', 'Esse é meu primeiro comentário sobre o blog', '2012-10-02 20:15:50', '2012-10-02 20:15:50', 744043030, 64810937)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Tiago Jantanova', 'tiagojantanova@hotmail.com', 'Serviceweb', 'tiagojantanova', 'tiagojantanova', 'Muito bom o posto sobre TDD', '2012-10-02 20:15:50', '2012-10-02 20:15:50', 682221006, 768773788)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Mauricio de Rosário', 'mauriciorosario@hotmail.com', 'Serviceweb', 'mauriciorosario', 'mauriciorosario', 'Quero alterar meu site pode', '2012-10-02 20:15:50', '2012-10-02 20:15:50', 16512385, 450215437)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Rafael Tibola noob', 'rafaelnoob@hotmail.com', 'Serviceweb', 'rafaelnoob', 'rafaelnoob', 'Ruby é uma linguagem muito boa', '2012-10-02 20:15:50', '2012-10-02 20:15:50', 360065829, 450215437)[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Alex Ninja', 'alexroveda@hotmail.com', 'Serviceweb', 'alexroveda', 'alexroveda', 'Gosto mais de Ruby do que batata e html', '2012-10-02 20:15:50', '2012-10-02 20:15:50', 725439032, 450215437)
+  [1m[36m (2.9ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mPost Exists (50.2ms)[0m  [1mSELECT 1 AS one FROM `posts` WHERE `posts`.`name` IS NULL LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mPost Exists (0.2ms)[0m  SELECT 1 AS one FROM `posts` WHERE `posts`.`name` IS NULL LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mPost Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM `posts` WHERE `posts`.`name` IS NULL LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mPost Exists (0.1ms)[0m  SELECT 1 AS one FROM `posts` WHERE `posts`.`name` IS NULL LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mPost Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM `posts` WHERE `posts`.`name` IS NULL LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.2ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM `categories`
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO `categories` (`id`, `name`, `situation`, `created_at`, `updated_at`) VALUES (1, 'Esportes', 1, '2012-10-02 20:17:03', '2012-10-02 20:17:03')[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `categories` (`id`, `name`, `situation`, `created_at`, `updated_at`) VALUES (2, 'Informática', 1, '2012-10-02 20:17:03', '2012-10-02 20:17:03')
+  [1m[36mFixture Delete (0.4ms)[0m  [1mDELETE FROM `posts`[0m
+  [1m[35mFixture Insert (0.5ms)[0m  INSERT INTO `posts` (`id`, `name`, `content`, `published_at`, `situation`, `author_id`, `created_at`, `updated_at`) VALUES (1, 'Esse é o meu primeiro Post', 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod', '2012-09-20', 1, 2, '2012-10-02 20:17:03', '2012-10-02 20:17:03')
+  [1m[36mFixture Insert (0.7ms)[0m  [1mINSERT INTO `posts` (`id`, `name`, `content`, `published_at`, `situation`, `author_id`, `created_at`, `updated_at`) VALUES (2, 'Esse é meu segundo Post fera!', 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod', '2012-09-20', 1, 2, '2012-10-02 20:17:03', '2012-10-02 20:17:03')[0m
+  [1m[35mFixture Insert (0.6ms)[0m  INSERT INTO `posts` (`id`, `name`, `content`, `published_at`, `situation`, `author_id`, `created_at`, `updated_at`) VALUES (3, 'Esse e meu terceiro post feraaaa', 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod', '2012-09-24', 1, 1, '2012-10-02 20:17:03', '2012-10-02 20:17:03')
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM `comments`[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Valter Ekert', 'valterekert@hotmail.com', 'Serviceweb', 'valterekert', 'valterkert', 'Esse é meu primeiro comentário sobre o blog', '2012-10-02 20:17:03', '2012-10-02 20:17:03', 744043030, 64810937)
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Tiago Jantanova', 'tiagojantanova@hotmail.com', 'Serviceweb', 'tiagojantanova', 'tiagojantanova', 'Muito bom o posto sobre TDD', '2012-10-02 20:17:03', '2012-10-02 20:17:03', 682221006, 768773788)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Mauricio de Rosário', 'mauriciorosario@hotmail.com', 'Serviceweb', 'mauriciorosario', 'mauriciorosario', 'Quero alterar meu site pode', '2012-10-02 20:17:03', '2012-10-02 20:17:03', 16512385, 450215437)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Rafael Tibola noob', 'rafaelnoob@hotmail.com', 'Serviceweb', 'rafaelnoob', 'rafaelnoob', 'Ruby é uma linguagem muito boa', '2012-10-02 20:17:03', '2012-10-02 20:17:03', 360065829, 450215437)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Alex Ninja', 'alexroveda@hotmail.com', 'Serviceweb', 'alexroveda', 'alexroveda', 'Gosto mais de Ruby do que batata e html', '2012-10-02 20:17:03', '2012-10-02 20:17:03', 725439032, 450215437)
+  [1m[36m (16.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mPost Exists (0.4ms)[0m  [1mSELECT 1 AS one FROM `posts` WHERE `posts`.`name` IS NULL LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mPost Exists (0.2ms)[0m  SELECT 1 AS one FROM `posts` WHERE `posts`.`name` IS NULL LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mPost Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM `posts` WHERE `posts`.`name` IS NULL LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mPost Exists (0.1ms)[0m  SELECT 1 AS one FROM `posts` WHERE `posts`.`name` IS NULL LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mPost Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM `posts` WHERE `posts`.`name` IS NULL LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.2ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.1ms)[0m  DELETE FROM `categories`
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO `categories` (`id`, `name`, `situation`, `created_at`, `updated_at`) VALUES (1, 'Esportes', 1, '2012-10-02 20:17:50', '2012-10-02 20:17:50')[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `categories` (`id`, `name`, `situation`, `created_at`, `updated_at`) VALUES (2, 'Informática', 1, '2012-10-02 20:17:50', '2012-10-02 20:17:50')
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM `posts`[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `posts` (`id`, `name`, `content`, `published_at`, `situation`, `author_id`, `created_at`, `updated_at`) VALUES (1, 'Esse é o meu primeiro Post', 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod', '2012-09-20', 1, 2, '2012-10-02 20:17:50', '2012-10-02 20:17:50')
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `posts` (`id`, `name`, `content`, `published_at`, `situation`, `author_id`, `created_at`, `updated_at`) VALUES (2, 'Esse é meu segundo Post fera!', 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod', '2012-09-20', 1, 2, '2012-10-02 20:17:50', '2012-10-02 20:17:50')[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `posts` (`id`, `name`, `content`, `published_at`, `situation`, `author_id`, `created_at`, `updated_at`) VALUES (3, 'Esse e meu terceiro post feraaaa', 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod', '2012-09-24', 1, 1, '2012-10-02 20:17:50', '2012-10-02 20:17:50')
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM `comments`[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Valter Ekert', 'valterekert@hotmail.com', 'Serviceweb', 'valterekert', 'valterkert', 'Esse é meu primeiro comentário sobre o blog', '2012-10-02 20:17:50', '2012-10-02 20:17:50', 744043030, 64810937)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Tiago Jantanova', 'tiagojantanova@hotmail.com', 'Serviceweb', 'tiagojantanova', 'tiagojantanova', 'Muito bom o posto sobre TDD', '2012-10-02 20:17:50', '2012-10-02 20:17:50', 682221006, 768773788)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Mauricio de Rosário', 'mauriciorosario@hotmail.com', 'Serviceweb', 'mauriciorosario', 'mauriciorosario', 'Quero alterar meu site pode', '2012-10-02 20:17:50', '2012-10-02 20:17:50', 16512385, 450215437)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Rafael Tibola noob', 'rafaelnoob@hotmail.com', 'Serviceweb', 'rafaelnoob', 'rafaelnoob', 'Ruby é uma linguagem muito boa', '2012-10-02 20:17:50', '2012-10-02 20:17:50', 360065829, 450215437)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Alex Ninja', 'alexroveda@hotmail.com', 'Serviceweb', 'alexroveda', 'alexroveda', 'Gosto mais de Ruby do que batata e html', '2012-10-02 20:17:50', '2012-10-02 20:17:50', 725439032, 450215437)
+  [1m[36m (2.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mPost Exists (0.4ms)[0m  [1mSELECT 1 AS one FROM `posts` WHERE `posts`.`name` IS NULL LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mPost Exists (0.2ms)[0m  SELECT 1 AS one FROM `posts` WHERE `posts`.`name` IS NULL LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mPost Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM `posts` WHERE `posts`.`name` IS NULL LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mPost Exists (0.1ms)[0m  SELECT 1 AS one FROM `posts` WHERE `posts`.`name` IS NULL LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mPost Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM `posts` WHERE `posts`.`name` IS NULL LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.2ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.1ms)[0m  DELETE FROM `categories`
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO `categories` (`id`, `name`, `situation`, `created_at`, `updated_at`) VALUES (1, 'Esportes', 1, '2012-10-02 20:18:10', '2012-10-02 20:18:10')[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `categories` (`id`, `name`, `situation`, `created_at`, `updated_at`) VALUES (2, 'Informática', 1, '2012-10-02 20:18:10', '2012-10-02 20:18:10')
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM `posts`[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `posts` (`id`, `name`, `content`, `published_at`, `situation`, `author_id`, `created_at`, `updated_at`) VALUES (1, 'Esse é o meu primeiro Post', 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod', '2012-09-20', 1, 2, '2012-10-02 20:18:10', '2012-10-02 20:18:10')
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO `posts` (`id`, `name`, `content`, `published_at`, `situation`, `author_id`, `created_at`, `updated_at`) VALUES (2, 'Esse é meu segundo Post fera!', 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod', '2012-09-20', 1, 2, '2012-10-02 20:18:10', '2012-10-02 20:18:10')[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `posts` (`id`, `name`, `content`, `published_at`, `situation`, `author_id`, `created_at`, `updated_at`) VALUES (3, 'Esse e meu terceiro post feraaaa', 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod', '2012-09-24', 1, 1, '2012-10-02 20:18:10', '2012-10-02 20:18:10')
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM `comments`[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Valter Ekert', 'valterekert@hotmail.com', 'Serviceweb', 'valterekert', 'valterkert', 'Esse é meu primeiro comentário sobre o blog', '2012-10-02 20:18:10', '2012-10-02 20:18:10', 744043030, 64810937)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Tiago Jantanova', 'tiagojantanova@hotmail.com', 'Serviceweb', 'tiagojantanova', 'tiagojantanova', 'Muito bom o posto sobre TDD', '2012-10-02 20:18:10', '2012-10-02 20:18:10', 682221006, 768773788)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Mauricio de Rosário', 'mauriciorosario@hotmail.com', 'Serviceweb', 'mauriciorosario', 'mauriciorosario', 'Quero alterar meu site pode', '2012-10-02 20:18:10', '2012-10-02 20:18:10', 16512385, 450215437)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Rafael Tibola noob', 'rafaelnoob@hotmail.com', 'Serviceweb', 'rafaelnoob', 'rafaelnoob', 'Ruby é uma linguagem muito boa', '2012-10-02 20:18:10', '2012-10-02 20:18:10', 360065829, 450215437)[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Alex Ninja', 'alexroveda@hotmail.com', 'Serviceweb', 'alexroveda', 'alexroveda', 'Gosto mais de Ruby do que batata e html', '2012-10-02 20:18:10', '2012-10-02 20:18:10', 725439032, 450215437)
+  [1m[36m (19.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mPost Exists (0.7ms)[0m  [1mSELECT 1 AS one FROM `posts` WHERE `posts`.`name` IS NULL LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mPost Exists (0.2ms)[0m  SELECT 1 AS one FROM `posts` WHERE `posts`.`name` IS NULL LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mPost Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM `posts` WHERE `posts`.`name` IS NULL LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mPost Exists (0.2ms)[0m  SELECT 1 AS one FROM `posts` WHERE `posts`.`name` IS NULL LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mPost Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM `posts` WHERE `posts`.`name` IS NULL LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.2ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM `categories`
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO `categories` (`id`, `name`, `situation`, `created_at`, `updated_at`) VALUES (1, 'Esportes', 1, '2012-10-03 12:36:35', '2012-10-03 12:36:35')[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `categories` (`id`, `name`, `situation`, `created_at`, `updated_at`) VALUES (2, 'Informática', 1, '2012-10-03 12:36:35', '2012-10-03 12:36:35')
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM `posts`[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `posts` (`id`, `name`, `content`, `published_at`, `situation`, `author_id`, `created_at`, `updated_at`) VALUES (1, 'Esse é o meu primeiro Post', 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod', '2012-09-20', 1, 2, '2012-10-03 12:36:35', '2012-10-03 12:36:35')
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `posts` (`id`, `name`, `content`, `published_at`, `situation`, `author_id`, `created_at`, `updated_at`) VALUES (2, 'Esse é meu segundo Post fera!', 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod', '2012-09-20', 1, 2, '2012-10-03 12:36:35', '2012-10-03 12:36:35')[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `posts` (`id`, `name`, `content`, `published_at`, `situation`, `author_id`, `created_at`, `updated_at`) VALUES (3, 'Esse e meu terceiro post feraaaa', 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod', '2012-09-24', 1, 1, '2012-10-03 12:36:35', '2012-10-03 12:36:35')
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM `comments`[0m
+  [1m[35mFixture Insert (0.6ms)[0m  INSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Valter Ekert', 'valterekert@hotmail.com', 'Serviceweb', 'valterekert', 'valterkert', 'Esse é meu primeiro comentário sobre o blog', '2012-10-03 12:36:35', '2012-10-03 12:36:35', 744043030, 64810937)
+  [1m[36mFixture Insert (0.9ms)[0m  [1mINSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Tiago Jantanova', 'tiagojantanova@hotmail.com', 'Serviceweb', 'tiagojantanova', 'tiagojantanova', 'Muito bom o posto sobre TDD', '2012-10-03 12:36:35', '2012-10-03 12:36:35', 682221006, 768773788)[0m
+  [1m[35mFixture Insert (0.5ms)[0m  INSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Mauricio de Rosário', 'mauriciorosario@hotmail.com', 'Serviceweb', 'mauriciorosario', 'mauriciorosario', 'Quero alterar meu site pode', '2012-10-03 12:36:35', '2012-10-03 12:36:35', 16512385, 450215437)
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Rafael Tibola noob', 'rafaelnoob@hotmail.com', 'Serviceweb', 'rafaelnoob', 'rafaelnoob', 'Ruby é uma linguagem muito boa', '2012-10-03 12:36:35', '2012-10-03 12:36:35', 360065829, 450215437)[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Alex Ninja', 'alexroveda@hotmail.com', 'Serviceweb', 'alexroveda', 'alexroveda', 'Gosto mais de Ruby do que batata e html', '2012-10-03 12:36:35', '2012-10-03 12:36:35', 725439032, 450215437)
+  [1m[36m (35.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mPost Exists (0.5ms)[0m  [1mSELECT 1 AS one FROM `posts` WHERE `posts`.`name` IS NULL LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mPost Exists (0.2ms)[0m  SELECT 1 AS one FROM `posts` WHERE `posts`.`name` IS NULL LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mPost Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM `posts` WHERE `posts`.`name` IS NULL LIMIT 1[0m
+  [1m[35m (0.6ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mPost Exists (0.2ms)[0m  SELECT 1 AS one FROM `posts` WHERE `posts`.`name` IS NULL LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mPost Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM `posts` WHERE `posts`.`name` IS NULL LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.2ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.1ms)[0m  DELETE FROM `categories`
+  [1m[36mFixture Insert (0.4ms)[0m  [1mINSERT INTO `categories` (`id`, `name`, `situation`, `created_at`, `updated_at`) VALUES (1, 'Esportes', 1, '2012-10-03 12:47:09', '2012-10-03 12:47:09')[0m
+  [1m[35mFixture Insert (0.6ms)[0m  INSERT INTO `categories` (`id`, `name`, `situation`, `created_at`, `updated_at`) VALUES (2, 'Informática', 1, '2012-10-03 12:47:09', '2012-10-03 12:47:09')
+  [1m[36mFixture Delete (0.6ms)[0m  [1mDELETE FROM `posts`[0m
+  [1m[35mFixture Insert (0.4ms)[0m  INSERT INTO `posts` (`id`, `name`, `content`, `published_at`, `situation`, `author_id`, `created_at`, `updated_at`) VALUES (1, 'Esse é o meu primeiro Post', 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod', '2012-09-20', 1, 2, '2012-10-03 12:47:09', '2012-10-03 12:47:09')
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `posts` (`id`, `name`, `content`, `published_at`, `situation`, `author_id`, `created_at`, `updated_at`) VALUES (2, 'Esse é meu segundo Post fera!', 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod', '2012-09-20', 1, 2, '2012-10-03 12:47:09', '2012-10-03 12:47:09')[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `posts` (`id`, `name`, `content`, `published_at`, `situation`, `author_id`, `created_at`, `updated_at`) VALUES (3, 'Esse e meu terceiro post feraaaa', 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod', '2012-09-24', 1, 1, '2012-10-03 12:47:09', '2012-10-03 12:47:09')
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM `comments`[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Valter Ekert', 'valterekert@hotmail.com', 'Serviceweb', 'valterekert', 'valterkert', 'Esse é meu primeiro comentário sobre o blog', '2012-10-03 12:47:09', '2012-10-03 12:47:09', 744043030, 64810937)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Tiago Jantanova', 'tiagojantanova@hotmail.com', 'Serviceweb', 'tiagojantanova', 'tiagojantanova', 'Muito bom o posto sobre TDD', '2012-10-03 12:47:09', '2012-10-03 12:47:09', 682221006, 768773788)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Mauricio de Rosário', 'mauriciorosario@hotmail.com', 'Serviceweb', 'mauriciorosario', 'mauriciorosario', 'Quero alterar meu site pode', '2012-10-03 12:47:09', '2012-10-03 12:47:09', 16512385, 450215437)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Rafael Tibola noob', 'rafaelnoob@hotmail.com', 'Serviceweb', 'rafaelnoob', 'rafaelnoob', 'Ruby é uma linguagem muito boa', '2012-10-03 12:47:09', '2012-10-03 12:47:09', 360065829, 450215437)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Alex Ninja', 'alexroveda@hotmail.com', 'Serviceweb', 'alexroveda', 'alexroveda', 'Gosto mais de Ruby do que batata e html', '2012-10-03 12:47:09', '2012-10-03 12:47:09', 725439032, 450215437)
+  [1m[36m (11.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mComment Load (0.5ms)[0m  SELECT `comments`.* FROM `comments` WHERE `comments`.`id` = 744043030 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36m (0.0ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36m (0.0ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36m (0.0ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36m (0.0ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.2ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM `categories`
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO `categories` (`id`, `name`, `situation`, `created_at`, `updated_at`) VALUES (1, 'Esportes', 1, '2012-10-03 12:48:28', '2012-10-03 12:48:28')[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `categories` (`id`, `name`, `situation`, `created_at`, `updated_at`) VALUES (2, 'Informática', 1, '2012-10-03 12:48:28', '2012-10-03 12:48:28')
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM `posts`[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `posts` (`id`, `name`, `content`, `published_at`, `situation`, `author_id`, `created_at`, `updated_at`) VALUES (1, 'Esse é o meu primeiro Post', 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod', '2012-09-20', 1, 2, '2012-10-03 12:48:28', '2012-10-03 12:48:28')
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `posts` (`id`, `name`, `content`, `published_at`, `situation`, `author_id`, `created_at`, `updated_at`) VALUES (2, 'Esse é meu segundo Post fera!', 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod', '2012-09-20', 1, 2, '2012-10-03 12:48:28', '2012-10-03 12:48:28')[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `posts` (`id`, `name`, `content`, `published_at`, `situation`, `author_id`, `created_at`, `updated_at`) VALUES (3, 'Esse e meu terceiro post feraaaa', 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod', '2012-09-24', 1, 1, '2012-10-03 12:48:28', '2012-10-03 12:48:28')
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM `comments`[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Valter Ekert', 'valterekert@hotmail.com', 'Serviceweb', 'valterekert', 'valterkert', 'Esse é meu primeiro comentário sobre o blog', '2012-10-03 12:48:28', '2012-10-03 12:48:28', 744043030, 64810937)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Tiago Jantanova', 'tiagojantanova@hotmail.com', 'Serviceweb', 'tiagojantanova', 'tiagojantanova', 'Muito bom o posto sobre TDD', '2012-10-03 12:48:28', '2012-10-03 12:48:28', 682221006, 768773788)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Mauricio de Rosário', 'mauriciorosario@hotmail.com', 'Serviceweb', 'mauriciorosario', 'mauriciorosario', 'Quero alterar meu site pode', '2012-10-03 12:48:28', '2012-10-03 12:48:28', 16512385, 450215437)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Rafael Tibola noob', 'rafaelnoob@hotmail.com', 'Serviceweb', 'rafaelnoob', 'rafaelnoob', 'Ruby é uma linguagem muito boa', '2012-10-03 12:48:28', '2012-10-03 12:48:28', 360065829, 450215437)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Alex Ninja', 'alexroveda@hotmail.com', 'Serviceweb', 'alexroveda', 'alexroveda', 'Gosto mais de Ruby do que batata e html', '2012-10-03 12:48:28', '2012-10-03 12:48:28', 725439032, 450215437)
+  [1m[36m (3.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mComment Load (0.4ms)[0m  SELECT `comments`.* FROM `comments` WHERE `comments`.`id` = 744043030 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mPost Load (0.5ms)[0m  [1mSELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 1 LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM `posts` 
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM `posts` 
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mPost Load (0.1ms)[0m  SELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 1 LIMIT 1
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT `posts`.* FROM `posts` [0m
+Completed 200 OK in 93ms (Views: 90.1ms | ActiveRecord: 0.4ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mPost Load (0.2ms)[0m  SELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 1 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 1 LIMIT 1[0m
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mPost Load (0.2ms)[0m  SELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 1 LIMIT 1
+Completed 200 OK in 5ms (Views: 3.2ms | ActiveRecord: 0.2ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.2ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.1ms)[0m  DELETE FROM `categories`
+  [1m[36mFixture Insert (0.4ms)[0m  [1mINSERT INTO `categories` (`id`, `name`, `situation`, `created_at`, `updated_at`) VALUES (1, 'Esportes', 1, '2012-10-03 12:49:42', '2012-10-03 12:49:42')[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `categories` (`id`, `name`, `situation`, `created_at`, `updated_at`) VALUES (2, 'Informática', 1, '2012-10-03 12:49:42', '2012-10-03 12:49:42')
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM `posts`[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `posts` (`id`, `name`, `content`, `published_at`, `situation`, `author_id`, `created_at`, `updated_at`) VALUES (1, 'Esse é o meu primeiro Post', 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod', '2012-09-20', 1, 2, '2012-10-03 12:49:42', '2012-10-03 12:49:42')
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `posts` (`id`, `name`, `content`, `published_at`, `situation`, `author_id`, `created_at`, `updated_at`) VALUES (2, 'Esse é meu segundo Post fera!', 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod', '2012-09-20', 1, 2, '2012-10-03 12:49:42', '2012-10-03 12:49:42')[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `posts` (`id`, `name`, `content`, `published_at`, `situation`, `author_id`, `created_at`, `updated_at`) VALUES (3, 'Esse e meu terceiro post feraaaa', 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod', '2012-09-24', 1, 1, '2012-10-03 12:49:42', '2012-10-03 12:49:42')
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM `comments`[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Valter Ekert', 'valterekert@hotmail.com', 'Serviceweb', 'valterekert', 'valterkert', 'Esse é meu primeiro comentário sobre o blog', '2012-10-03 12:49:42', '2012-10-03 12:49:42', 744043030, 64810937)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Tiago Jantanova', 'tiagojantanova@hotmail.com', 'Serviceweb', 'tiagojantanova', 'tiagojantanova', 'Muito bom o posto sobre TDD', '2012-10-03 12:49:42', '2012-10-03 12:49:42', 682221006, 768773788)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Mauricio de Rosário', 'mauriciorosario@hotmail.com', 'Serviceweb', 'mauriciorosario', 'mauriciorosario', 'Quero alterar meu site pode', '2012-10-03 12:49:42', '2012-10-03 12:49:42', 16512385, 450215437)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Rafael Tibola noob', 'rafaelnoob@hotmail.com', 'Serviceweb', 'rafaelnoob', 'rafaelnoob', 'Ruby é uma linguagem muito boa', '2012-10-03 12:49:42', '2012-10-03 12:49:42', 360065829, 450215437)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Alex Ninja', 'alexroveda@hotmail.com', 'Serviceweb', 'alexroveda', 'alexroveda', 'Gosto mais de Ruby do que batata e html', '2012-10-03 12:49:42', '2012-10-03 12:49:42', 725439032, 450215437)
+  [1m[36m (19.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mComment Load (0.5ms)[0m  SELECT `comments`.* FROM `comments` WHERE `comments`.`id` = 744043030 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 1 LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM `posts` 
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM `posts` 
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mPost Load (0.1ms)[0m  SELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 1 LIMIT 1
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT `posts`.* FROM `posts` [0m
+Completed 200 OK in 76ms (Views: 73.7ms | ActiveRecord: 0.4ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mPost Load (0.1ms)[0m  SELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 1 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 1 LIMIT 1[0m
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mPost Load (0.2ms)[0m  SELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 1 LIMIT 1
+Completed 200 OK in 5ms (Views: 2.9ms | ActiveRecord: 0.2ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.2ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM `categories`
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO `categories` (`id`, `name`, `situation`, `created_at`, `updated_at`) VALUES (1, 'Esportes', 1, '2012-10-03 12:50:26', '2012-10-03 12:50:26')[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `categories` (`id`, `name`, `situation`, `created_at`, `updated_at`) VALUES (2, 'Informática', 1, '2012-10-03 12:50:26', '2012-10-03 12:50:26')
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM `posts`[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `posts` (`id`, `name`, `content`, `published_at`, `situation`, `author_id`, `created_at`, `updated_at`) VALUES (1, 'Esse é o meu primeiro Post', 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod', '2012-09-20', 1, 2, '2012-10-03 12:50:26', '2012-10-03 12:50:26')
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `posts` (`id`, `name`, `content`, `published_at`, `situation`, `author_id`, `created_at`, `updated_at`) VALUES (2, 'Esse é meu segundo Post fera!', 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod', '2012-09-20', 1, 2, '2012-10-03 12:50:26', '2012-10-03 12:50:26')[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `posts` (`id`, `name`, `content`, `published_at`, `situation`, `author_id`, `created_at`, `updated_at`) VALUES (3, 'Esse e meu terceiro post feraaaa', 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod', '2012-09-24', 1, 1, '2012-10-03 12:50:26', '2012-10-03 12:50:26')
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM `comments`[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Valter Ekert', 'valterekert@hotmail.com', 'Serviceweb', 'valterekert', 'valterkert', 'Esse é meu primeiro comentário sobre o blog', '2012-10-03 12:50:26', '2012-10-03 12:50:26', 744043030, 64810937)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Tiago Jantanova', 'tiagojantanova@hotmail.com', 'Serviceweb', 'tiagojantanova', 'tiagojantanova', 'Muito bom o posto sobre TDD', '2012-10-03 12:50:26', '2012-10-03 12:50:26', 682221006, 768773788)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Mauricio de Rosário', 'mauriciorosario@hotmail.com', 'Serviceweb', 'mauriciorosario', 'mauriciorosario', 'Quero alterar meu site pode', '2012-10-03 12:50:26', '2012-10-03 12:50:26', 16512385, 450215437)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Rafael Tibola noob', 'rafaelnoob@hotmail.com', 'Serviceweb', 'rafaelnoob', 'rafaelnoob', 'Ruby é uma linguagem muito boa', '2012-10-03 12:50:26', '2012-10-03 12:50:26', 360065829, 450215437)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Alex Ninja', 'alexroveda@hotmail.com', 'Serviceweb', 'alexroveda', 'alexroveda', 'Gosto mais de Ruby do que batata e html', '2012-10-03 12:50:26', '2012-10-03 12:50:26', 725439032, 450215437)
+  [1m[36m (10.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mComment Load (0.6ms)[0m  SELECT `comments`.* FROM `comments` WHERE `comments`.`id` = 744043030 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 1 LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM `posts` 
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM `posts` 
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mPost Load (0.1ms)[0m  SELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 1 LIMIT 1
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT `posts`.* FROM `posts` [0m
+Completed 200 OK in 76ms (Views: 73.5ms | ActiveRecord: 0.4ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mPost Load (0.1ms)[0m  SELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 1 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 1 LIMIT 1[0m
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mPost Load (0.2ms)[0m  SELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 1 LIMIT 1
+Completed 200 OK in 5ms (Views: 2.9ms | ActiveRecord: 0.2ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.2ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM `categories`
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO `categories` (`id`, `name`, `situation`, `created_at`, `updated_at`) VALUES (1, 'Esportes', 1, '2012-10-03 12:51:12', '2012-10-03 12:51:12')[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `categories` (`id`, `name`, `situation`, `created_at`, `updated_at`) VALUES (2, 'Informática', 1, '2012-10-03 12:51:12', '2012-10-03 12:51:12')
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM `posts`[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `posts` (`id`, `name`, `content`, `published_at`, `situation`, `author_id`, `created_at`, `updated_at`) VALUES (1, 'Esse é o meu primeiro Post', 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod', '2012-09-20', 1, 2, '2012-10-03 12:51:12', '2012-10-03 12:51:12')
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `posts` (`id`, `name`, `content`, `published_at`, `situation`, `author_id`, `created_at`, `updated_at`) VALUES (2, 'Esse é meu segundo Post fera!', 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod', '2012-09-20', 1, 2, '2012-10-03 12:51:12', '2012-10-03 12:51:12')[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `posts` (`id`, `name`, `content`, `published_at`, `situation`, `author_id`, `created_at`, `updated_at`) VALUES (3, 'Esse e meu terceiro post feraaaa', 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod', '2012-09-24', 1, 1, '2012-10-03 12:51:12', '2012-10-03 12:51:12')
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM `comments`[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Valter Ekert', 'valterekert@hotmail.com', 'Serviceweb', 'valterekert', 'valterkert', 'Esse é meu primeiro comentário sobre o blog', '2012-10-03 12:51:13', '2012-10-03 12:51:13', 744043030, 64810937)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Tiago Jantanova', 'tiagojantanova@hotmail.com', 'Serviceweb', 'tiagojantanova', 'tiagojantanova', 'Muito bom o posto sobre TDD', '2012-10-03 12:51:13', '2012-10-03 12:51:13', 682221006, 768773788)[0m
+  [1m[35mFixture Insert (0.3ms)[0m  INSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Mauricio de Rosário', 'mauriciorosario@hotmail.com', 'Serviceweb', 'mauriciorosario', 'mauriciorosario', 'Quero alterar meu site pode', '2012-10-03 12:51:13', '2012-10-03 12:51:13', 16512385, 450215437)
+  [1m[36mFixture Insert (0.3ms)[0m  [1mINSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Rafael Tibola noob', 'rafaelnoob@hotmail.com', 'Serviceweb', 'rafaelnoob', 'rafaelnoob', 'Ruby é uma linguagem muito boa', '2012-10-03 12:51:13', '2012-10-03 12:51:13', 360065829, 450215437)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Alex Ninja', 'alexroveda@hotmail.com', 'Serviceweb', 'alexroveda', 'alexroveda', 'Gosto mais de Ruby do que batata e html', '2012-10-03 12:51:13', '2012-10-03 12:51:13', 725439032, 450215437)
+  [1m[36m (10.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mComment Load (0.6ms)[0m  SELECT `comments`.* FROM `comments` WHERE `comments`.`id` = 744043030 LIMIT 1
+Processing by Admin::CommentsController#index as HTML
+Completed 500 Internal Server Error in 7ms
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 1 LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM `posts` 
+  [1m[36m (0.5ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mPost Load (0.2ms)[0m  [1mSELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM `posts` 
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 1 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mPost Load (0.1ms)[0m  SELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 1 LIMIT 1
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.4ms)[0m  [1mSELECT `posts`.* FROM `posts` [0m
+Completed 200 OK in 75ms (Views: 72.7ms | ActiveRecord: 0.4ms)
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mPost Load (0.2ms)[0m  SELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 1 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 1 LIMIT 1[0m
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mPost Load (0.2ms)[0m  SELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 1 LIMIT 1
+Completed 200 OK in 5ms (Views: 2.9ms | ActiveRecord: 0.2ms)
+  [1m[36m (0.2ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mPost Load (0.1ms)[0m  [1mSELECT `posts`.* FROM `posts` WHERE `posts`.`id` = 1 LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.2ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.1ms)[0m  DELETE FROM `categories`
+  [1m[36mFixture Insert (0.4ms)[0m  [1mINSERT INTO `categories` (`id`, `name`, `situation`, `created_at`, `updated_at`) VALUES (1, 'Esportes', 1, '2012-10-03 12:55:58', '2012-10-03 12:55:58')[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `categories` (`id`, `name`, `situation`, `created_at`, `updated_at`) VALUES (2, 'Informática', 1, '2012-10-03 12:55:58', '2012-10-03 12:55:58')
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM `posts`[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `posts` (`id`, `name`, `content`, `published_at`, `situation`, `author_id`, `created_at`, `updated_at`) VALUES (1, 'Esse é o meu primeiro Post', 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod', '2012-09-20', 1, 2, '2012-10-03 12:55:58', '2012-10-03 12:55:58')
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `posts` (`id`, `name`, `content`, `published_at`, `situation`, `author_id`, `created_at`, `updated_at`) VALUES (2, 'Esse é meu segundo Post fera!', 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod', '2012-09-20', 1, 2, '2012-10-03 12:55:58', '2012-10-03 12:55:58')[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `posts` (`id`, `name`, `content`, `published_at`, `situation`, `author_id`, `created_at`, `updated_at`) VALUES (3, 'Esse e meu terceiro post feraaaa', 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod', '2012-09-24', 1, 1, '2012-10-03 12:55:58', '2012-10-03 12:55:58')
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM `comments`[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Valter Ekert', 'valterekert@hotmail.com', 'Serviceweb', 'valterekert', 'valterkert', 'Esse é meu primeiro comentário sobre o blog', '2012-10-03 12:55:58', '2012-10-03 12:55:58', 744043030, 64810937)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Tiago Jantanova', 'tiagojantanova@hotmail.com', 'Serviceweb', 'tiagojantanova', 'tiagojantanova', 'Muito bom o posto sobre TDD', '2012-10-03 12:55:58', '2012-10-03 12:55:58', 682221006, 768773788)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Mauricio de Rosário', 'mauriciorosario@hotmail.com', 'Serviceweb', 'mauriciorosario', 'mauriciorosario', 'Quero alterar meu site pode', '2012-10-03 12:55:58', '2012-10-03 12:55:58', 16512385, 450215437)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Rafael Tibola noob', 'rafaelnoob@hotmail.com', 'Serviceweb', 'rafaelnoob', 'rafaelnoob', 'Ruby é uma linguagem muito boa', '2012-10-03 12:55:58', '2012-10-03 12:55:58', 360065829, 450215437)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Alex Ninja', 'alexroveda@hotmail.com', 'Serviceweb', 'alexroveda', 'alexroveda', 'Gosto mais de Ruby do que batata e html', '2012-10-03 12:55:58', '2012-10-03 12:55:58', 725439032, 450215437)
+  [1m[36m (2.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36mPost Exists (0.5ms)[0m  [1mSELECT 1 AS one FROM `posts` WHERE `posts`.`name` IS NULL LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mPost Exists (0.3ms)[0m  SELECT 1 AS one FROM `posts` WHERE `posts`.`name` IS NULL LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mPost Exists (0.3ms)[0m  [1mSELECT 1 AS one FROM `posts` WHERE `posts`.`name` IS NULL LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mPost Exists (0.2ms)[0m  SELECT 1 AS one FROM `posts` WHERE `posts`.`name` IS NULL LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mPost Exists (0.2ms)[0m  [1mSELECT 1 AS one FROM `posts` WHERE `posts`.`name` IS NULL LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mSELECT @@FOREIGN_KEY_CHECKS[0m
+  [1m[35m (0.2ms)[0m  SET FOREIGN_KEY_CHECKS = 0
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mFixture Delete (0.2ms)[0m  DELETE FROM `categories`
+  [1m[36mFixture Insert (0.4ms)[0m  [1mINSERT INTO `categories` (`id`, `name`, `situation`, `created_at`, `updated_at`) VALUES (1, 'Esportes', 1, '2012-10-03 21:59:01', '2012-10-03 21:59:01')[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `categories` (`id`, `name`, `situation`, `created_at`, `updated_at`) VALUES (2, 'Informática', 1, '2012-10-03 21:59:01', '2012-10-03 21:59:01')
+  [1m[36mFixture Delete (0.2ms)[0m  [1mDELETE FROM `posts`[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `posts` (`id`, `name`, `content`, `published_at`, `situation`, `author_id`, `created_at`, `updated_at`) VALUES (1, 'Esse é o meu primeiro Post', 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod', '2012-09-20', 1, 2, '2012-10-03 21:59:01', '2012-10-03 21:59:01')
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `posts` (`id`, `name`, `content`, `published_at`, `situation`, `author_id`, `created_at`, `updated_at`) VALUES (2, 'Esse é meu segundo Post fera!', 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod', '2012-09-20', 1, 2, '2012-10-03 21:59:01', '2012-10-03 21:59:01')[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `posts` (`id`, `name`, `content`, `published_at`, `situation`, `author_id`, `created_at`, `updated_at`) VALUES (3, 'Esse e meu terceiro post feraaaa', 'Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod', '2012-09-24', 1, 1, '2012-10-03 21:59:01', '2012-10-03 21:59:01')
+  [1m[36mFixture Delete (0.1ms)[0m  [1mDELETE FROM `comments`[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Valter Ekert', 'valterekert@hotmail.com', 'Serviceweb', 'valterekert', 'valterkert', 'Esse é meu primeiro comentário sobre o blog', '2012-10-03 21:59:01', '2012-10-03 21:59:01', 744043030, 64810937)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Tiago Jantanova', 'tiagojantanova@hotmail.com', 'Serviceweb', 'tiagojantanova', 'tiagojantanova', 'Muito bom o posto sobre TDD', '2012-10-03 21:59:01', '2012-10-03 21:59:01', 682221006, 768773788)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Mauricio de Rosário', 'mauriciorosario@hotmail.com', 'Serviceweb', 'mauriciorosario', 'mauriciorosario', 'Quero alterar meu site pode', '2012-10-03 21:59:01', '2012-10-03 21:59:01', 16512385, 450215437)
+  [1m[36mFixture Insert (0.2ms)[0m  [1mINSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Rafael Tibola noob', 'rafaelnoob@hotmail.com', 'Serviceweb', 'rafaelnoob', 'rafaelnoob', 'Ruby é uma linguagem muito boa', '2012-10-03 21:59:01', '2012-10-03 21:59:01', 360065829, 450215437)[0m
+  [1m[35mFixture Insert (0.2ms)[0m  INSERT INTO `comments` (`name`, `email`, `company`, `twitter`, `facebook`, `content`, `created_at`, `updated_at`, `id`, `post_id`) VALUES ('Alex Ninja', 'alexroveda@hotmail.com', 'Serviceweb', 'alexroveda', 'alexroveda', 'Gosto mais de Ruby do que batata e html', '2012-10-03 21:59:01', '2012-10-03 21:59:01', 725439032, 450215437)
+  [1m[36m (52.0ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  SET FOREIGN_KEY_CHECKS = 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.2ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mPost Exists (0.5ms)[0m  [1mSELECT 1 AS one FROM `posts` WHERE `posts`.`name` IS NULL LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mPost Exists (0.2ms)[0m  SELECT 1 AS one FROM `posts` WHERE `posts`.`name` IS NULL LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mPost Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM `posts` WHERE `posts`.`name` IS NULL LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mPost Exists (0.1ms)[0m  SELECT 1 AS one FROM `posts` WHERE `posts`.`name` IS NULL LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mPost Exists (0.1ms)[0m  [1mSELECT 1 AS one FROM `posts` WHERE `posts`.`name` IS NULL LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  ROLLBACK TO SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK[0m

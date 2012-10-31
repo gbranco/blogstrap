@@ -1,0 +1,12 @@
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+#coding : utf-8
+one:
+  id: '1'
+  name: Esportes
+  situation: true
+
+two:
+  id: '2'
+  name: Informática
+  situation: true

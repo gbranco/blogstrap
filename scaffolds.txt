@@ -1,0 +1,9 @@
+rails g scaffold Category name:string situation:boolean --skip-stylesheets
+
+rails g scaffold Post name:string category:references content:text published_at:date situation:boolean --skip-stylesheets
+
+rails g scaffold Archive image:string --skip-stylesheets
+
+rails g migration JoinPostAndArchive
+
+rails g model Comment name:string email:string company:string twitter:string facebook:string content:text post:references

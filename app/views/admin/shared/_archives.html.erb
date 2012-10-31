@@ -1,0 +1,24 @@
+<%# encoding : utf-8 %>
+<div class='well'>
+	<h4>Selecione os arquivos</h4>
+	<% unless @archive_types.empty? %>
+		
+		<ul class="nav nav-tabs">
+				<% @archive_types.each do |type| %>
+					<li><a href="#<%= type %>" data-toggle="tab"><%= type.upcase %></a></li>
+				<% end %>
+		</ul>
+
+		<div class="tab-content">
+			<% @archive_types.each do |type| %>
+				<div class="tab-pane" id="<%= type %>"><%= archives_for_type(type, post) %></div>
+			<% end %>
+		</div>
+
+	<% else %>
+		  <div class="alert">
+		    <button type="button" class="close" data-dismiss="alert">x</button>
+		    <strong>Cadastrar Uploads!</strong>
+	    </div>
+	<% end %>
+</div>
