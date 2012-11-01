@@ -7,8 +7,8 @@ Encoding.default_external = "UTF-8"
 
 ActionMailer::Base.smtp_settings = {
   :address  => "smtp.gmail.com",
-  :port  => 25,
+  :port  => 587,
   :user_name  => "luiz.cezer@gmail.com",
   :password  => "@@batata8juvenal@@",
-  :authentication  => :login
+  :authentication  => :plain
 }
