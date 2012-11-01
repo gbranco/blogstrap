@@ -10,6 +10,6 @@ ActionMailer::Base.smtp_settings = {
   :port  => 587,
   :user_name  => "luiz.cezer@gmail.com",
   :password  => "@@batata8juvenal@@",
-  :authentication  => :login
-  :domain => 'http://www.blogstrap.heroku.com'
+  :authentication  => :login,
+  :domain => 'mail.google.com"'
 }
