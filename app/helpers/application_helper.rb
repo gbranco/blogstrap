@@ -82,13 +82,15 @@ module ApplicationHelper
 
   def mais_comentados(objetos)
     html = %()
-    html << content_tag(:li, "<i class='icon-list-alt'></i>Mais comentados".html_safe, :class => 'nav-header')
     unless objetos.empty?
+      html << content_tag(:li, "<i class='icon-list-alt'></i>Mais comentados".html_safe, :class => 'nav-header')
       objetos.each do |comment|
         html << content_tag(:li, link_to("#{comment.post.name}&nbsp;&nbsp;&nbsp;<span class='label label-info alinhamento'>#{comment.post.comments.size}</span>".html_safe, post_path(comment.post), :title => 'ir para o post'))
-      end    
+      end
+      content_tag(:ul, html.html_safe, :class => 'nav nav-list')    
+    else
+      content_tag(:h3, "Não há comentários")      
     end    
-    content_tag(:ul, html.html_safe, :class => 'nav nav-list')
   end
 
 end
