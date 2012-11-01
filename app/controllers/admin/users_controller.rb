@@ -47,7 +47,7 @@ class Admin::UsersController < ApplicationController
 protected
 
   def load_roles
-    @roles = Role.order(:name => 'ASC')
+    @roles = Role.order("name ASC")
   end
 
 end
