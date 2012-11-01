@@ -34,7 +34,7 @@ class Post < ActiveRecord::Base
 
   def self.search_in_blog(params)
     if params[:category_id]
-      where(:category_id => params[:category_id]).order(:id => :desc).paginate(:per_page => 5,:page => params[:page])
+      where(:category_id => params[:category_id]).order('id DESC').paginate(:per_page => 5,:page => params[:page])
     else
       actived?.search(params[:search]).paginate(:per_page => 5,:page => params[:page])
     end

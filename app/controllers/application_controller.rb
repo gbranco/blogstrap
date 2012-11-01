@@ -23,7 +23,7 @@ class ApplicationController < ActionController::Base
   end
 
   def load_resources
-    @categories = Category.joins(:posts).where('posts.situation = ?', true).order(:name => :asc).uniq
+    @categories = Category.joins(:posts).where('posts.situation = ?', true).order('name ASC').uniq
     @posts_mais_comentados = Comment.more_commented
   end
 
