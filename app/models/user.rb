@@ -3,7 +3,7 @@ class User < ActiveRecord::Base
 
   belongs_to :role
   has_many :posts, :class_name => 'Post', :foreign_key => 'author_id'
-  #after_create :notification_user
+  after_create :notification_user
 
   def is_role?(role)
     self.role.name.to_sym.eql?(role)
