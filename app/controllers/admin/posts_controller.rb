@@ -48,7 +48,7 @@ class Admin::PostsController < ApplicationController
 protected
 
   def load_resources
-    @categories    = Category.order(:name => 'ASC')
+    @categories    = Category.order("name ASC")
     @archive_types = Archive.archive_types
   end
 
