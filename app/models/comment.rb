@@ -14,7 +14,7 @@ class Comment < ActiveRecord::Base
 
   scope :has_new_comments, where(:situation => false).group('comments.post_id')
 
-  scope :more_commented, select('comments.*, count(*)').group('comments.id, comments.post_id').limit(8).order('max(comments.post_id) ASC')
+  scope :more_commented, select('comments.*, count(*)').where(:situation => true).group('comments.id, comments.post_id').limit(8).order('max(comments.post_id) ASC')
 
   after_create :notify_user_about_comment
 
