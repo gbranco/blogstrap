@@ -17,7 +17,7 @@ class ArchiveUploader < CarrierWave::Uploader::Base
   # Override the directory where uploaded files will be stored.
   # This is a sensible default for uploaders that are meant to be mounted:
   def store_dir
-    "http://www.senhas.serviceweb.com.br/public/uploads/#{model.class.to_s.underscore}/#{mounted_as}/#{model.id}"
+    "http://www.senhas.serviceweb.com.br/public/uploads/carrierwave/#{model.class.to_s.underscore}/#{mounted_as}/#{model.id}"
   end
 
   # Provide a default URL as a default if there hasn't been a file uploaded:
