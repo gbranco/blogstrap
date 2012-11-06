@@ -10,8 +10,6 @@ PrimeiraApp::Application.routes.draw do
 
   root :to => "home#index"
   
-  match '/http:/www.serviceweb.com.br/public/uploads/carrierwave/:model/:attribute/:id/:image'
-  
   #rotas devise
   devise_for :users,:controllers => {
     :sessions => "admin/sessions",
